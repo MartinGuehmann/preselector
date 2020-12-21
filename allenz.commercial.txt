@@ -1,0 +1,622 @@
+database = `AanI	PsiI	Arthrobacter aurescens RFL2	Fermentas G324	TTA^TAA		B	3510	
+AarI		Arthrobacter aurescens SS2-322	A. Janulaitis	CACCTGC(4/8)		B	1113,2111	
+AasI	DrdI	Arthrobacter aurescens RFL3	V. Butkus	GACNNNN^NNGTC		B	1575	
+AatII		Acetobacter aceti IFO 3281	IFO 3281	GACGT^C	2(6)	BIKMNV	567,913,918,3238,3747	
+AbaSI	PvuRts1I	Acinetobacter baumannii SDF	D. Vallenet	CNNNNNNNNNNNNNNNNNNNNG		N	299	
+AbsI		Arthrobacter species 7M06	S.K. Degtyarev	CC^TCGAGG		I	494	
+AccI		Acinetobacter calcoaceticus	ATCC 49823	GT^MKAC	5(6)	BJKMNQRX	913,918,921,1563,1564,2053,3829	
+AccII	FnuDII	Acinetobacter calcoaceticus	ATCC 49823	CG^CG	1(5)	JK	101,918,921,1665,3829	
+AccIII	BspMII	Acinetobacter calcoaceticus	ATCC 49823	T^CCGGA	6(6)	JKR	918,921,1666,2911,2912	
+Acc16I	MstI	Acinetobacter calcoaceticus 16	S.K. Degtyarev	TGC^GCA		IV	703,730	
+Acc36I	BspMI	Acinetobacter calcoaceticus 36	S.K. Degtyarev	ACCTGC(4/8)		I	1084	
+Acc65I	KpnI	Acinetobacter calcoaceticus 65	S.K. Degtyarev	G^GTACC	4(6)	BINV	913,918,949,2051,2072,2327,2710	
+AccB1I	HgiCI	Acinetobacter calcoaceticus B1	S.K. Degtyarev	G^GYRCC		IV	730	
+AccB7I	PflMI	Acinetobacter calcoaceticus B7	S.K. Degtyarev	CCANNNN^NTGG		IV	703,724	
+AccBSI	BsrBI	Acinetobacter calcoaceticus BS	S.K. Degtyarev	CCGCTC(-3/-3)		IV	20,703	
+AciI		Arthrobacter citreus	NEB 577	CCGC(-3/-1)	1(5),-2(5)	N	913,1225,2055,2318,2327,2680,2925	
+AclI		Acinetobacter calcoaceticus M4	S.K. Degtyarev	AA^CGTT	3(5)	INV	732,913,918,2072,2073,2327	
+AclWI	BinI	Acinetobacter calcoaceticus W2131	S.K. Degtyarev	GGATC(4/5)		I	7	
+AcoI	CfrI	Acinetobacter calcoaceticus	S.K. Degtyarev	Y^GGCCR		I	481	
+AcsI	ApoI	Arthrobacter citreus 310	S.K. Degtyarev	R^AATTY		IV	736	
+AcuI	Eco57I	Acinetobacter calcoaceticus SRW4	S.K. Degtyarev	CTGAAG(16/14)	?(6)	IN	735,913,919,2929	
+AcvI	PmaCI	Aeromonas caviae	P.M. Skowron	CAC^GTG		QX	3102	
+AcyI		Anabaena cylindrica	CCAP 1403/2a	GR^CGYC		J	684	
+AdeI	DraIII	Alcaligenes denitrificans Ss 3-028	A. Janulaitis	CACNNN^GTG		B	2109,3552	
+AfaI	RsaI	Acidiphilium facilis 28H	D. Dou	GT^AC		BK	792	
+AfeI	Eco47III	Alcaligenes faecalis T2774	NEB 1775	AGC^GCT		IN	22,913,2049,3937	
+AfiI	BsiYI	Anoxybacillus flavithermus	Vivantis 24	CCNNNNN^NNGG		V	447	
+AflII		Anabaena flos-aquae	CCAP 1403/13f	C^TTAAG	5(6)	JKN	913,918,2068,2327,3648,3670,3702	
+AflIII		Anabaena flos-aquae	CCAP 1403/13f	A^CRYGT	2(4)	MNS	913,918,2060,2327,3209,3648,3702	
+AgeI		Agrobacterium gelatinovorum	IAM 12617	A^CCGGT	3(5)	JNR	110,913,918,3268,3702,3746,3768	
+AgsI		Agrococcus species 25	S.K. Degtyarev	TTS^AA	5(6)	I	496,705	
+AhdI	Eam1105I	Aeromonas hydrophila	NEB 724	GACNNN^NNGTC	2(6)	N	438,913,918,923,941,2075,2671	
+AhlI	SpeI	Alteromonas haloplanktis SP	S.K. Degtyarev	A^CTAGT		IV	2389	
+AjiI	BtrI	Acinetobacter johnsonii RFL47	Fermentas G303	CACGTC(-3/-3)		B	1845,2113	
+AjnI	EcoRII	Acinetobacter johnsonii R2	S.K. Degtyarev	^CCWGG	1(5)	I	693,712	
+AjuI		Acinetobacter junii RFL46	A. Janulaitis	(7/12)GAANNNNNNNTTGG(11/6)		B	2113,2431	
+AleI	OliI	Aureobacterium liquefaciens	NEB 1374	CACNN^NNGTG	2(6)	N	730,918,3670	
+AloI		Acinetobacter lwoffi Ks 4-8	V. Butkus	(7/12)GAACNNNNNNTCC(12/7)	3(6),-3(6)	B	412,2953	
+AluI		Arthrobacter luteus	ATCC 21606	AG^CT	3(5)	BCIJKMNOQRSVXY	913,918,924,1751,1814,2865,3117,3605,3606,3807	
+AluBI	AluI	Arthrobacter luteus B	S.K. Degtyarev	AG^CT	1(6)	I	484,485,704	
+AlwI	BinI	Acinetobacter lwoffi	NEB 402	GGATC(4/5)	3(6),-2(6)	N	913,918,2072,2295,3209	
+Alw21I	HgiAI	Acinetobacter lwoffi RFL21	A. Janulaitis	GWGCW^C		B	1391	
+Alw26I	BsmAI	Acinetobacter lwoffi RFL26	A. Janulaitis	GTCTC(1/5)	3(5),-4(6)	B	267,268,1041	
+Alw44I	ApaLI	Acinetobacter lwoffi RFL44	A. Janulaitis	G^TGCAC		BJ	1391	
+AlwNI		Acinetobacter lwoffi	NEB 419	CAGNNN^CTG		N	913,2311,2322,3922,3937	
+Ama87I	AvaI	Alteromonas macleodii 87	S.K. Degtyarev	C^YCGRG		IV	730	
+Aor13HI	BspMII	Acidiphilium organovorum 13H	K. Inagaki	T^CCGGA		K	1361	
+Aor51HI	Eco47III	Acidiphilium organovorum 51H	Takara	AGC^GCT		K	2910	
+AoxI		Arthrobacter oxydans 25K	S.K. Degtyarev	^GGCC		I	483	
+ApaI		Acetobacter pasteurianus sub. pasteurianus	NCIB 7215	GGGCC^C	4(5)	BIJKMNQRSVX	913,1140,1695,1696,2327,3018,3383,3769	
+ApaLI		Acetobacter pasteurianus	IFO 13753	G^TGCAC	4(5)	CKN	913,918,2364,3269,3715,3755,3769	
+ApeKI	TseI	Aeropyrum pernix K1	ATCC 700893	G^CWGC	?(5)	N	913,1570,2543,3748	
+ApoI		Arthrobacter protophormiae	NEB 723	R^AATTY	3(6)	N	913,918,2072,2073,2327,2684	
+ArsI		Arthrobacter species NTS	S.K. Degtyarev	(8/13)GACNNNNNNTTYG(11/6)		I	499	
+AscI		Arthrobacter species	NEB 688	GG^CGCGCC	?(5)	N	913,2072,2073,2294,2311,2318,2327	
+AseI	VspI	Aquaspirillum serpens	NEB 448	AT^TAAT	?(6)	JN	2314,2327,2678,3205,3206	
+AsiGI	AgeI	Arthrobacter species G	S.K. Degtyarev	A^CCGGT		IV	528	
+AsiSI	SgfI	Arthrobacter species S	S.K. Degtyarev	GCGAT^CGC	2(5)	IN	28,913,2311,3940,3941	
+Asp700I	XmnI	Achromobacter species 700	C. Kessler	GAANN^NNTTC		M	286	
+Asp718I	KpnI	Achromobacter species 718	DSM 2969	G^GTACC		MS	289	
+AspA2I	AvrII	Arthrobacter species A2	S.K. Degtyarev	C^CTAGG		IV	17	
+AspLEI	HhaI	Arthrobacter species LE3860	S.K. Degtyarev	GCG^C		IV	3567	
+AspS9I	AsuI	Arthrobacter species S9	S.K. Degtyarev	G^GNCC	4(5)	IV	691,703,709	
+AsuII		Anabaena subcylindrica	CCAP 1403/4b	TT^CGAA		C	683	
+AsuC2I	CauII	Actinobacillus suis C2	S.K. Degtyarev	CC^SGG		I	1615	
+AsuHPI	HphI	Actinobacillus suis HP	S.K. Degtyarev	GGTGA(8/7)		IV	701	
+AsuNHI	NheI	Actinobacillus suis NH	S.K. Degtyarev	G^CTAGC		IV	701,703	
+AvaI		Anabaena variabilis ATCC 27893	ATCC 27893	C^YCGRG	1(4)	JNQX	913,1333,1525,2053,2372,2891,3739	
+AvaII		Anabaena variabilis ATCC 27893	ATCC 27893	G^GWCC	4(5)	JNRX	102,110,913,978,1333,1525,2053,2074,2372,3265	
+AvrII		Anabaena variabilis uw	E.C. Rosenvold	C^CTAGG		N	913,918,2061,2062,2327,2886	
+AxyI	SauI	Acetobacter xylinus	IFO 3288	CC^TNAGG		J	3812	
+BaeI		Bacillus sphaericus	NEB 659	(10/15)ACNNNNGTAYC(12/7)	1(6),-4(6)	N	913,918,919,922,942,2999,3937,3940	
+BaeGI	BseSI	Bacillus aestuarii GG790	NEB 1902	GKGCM^C	6(5)	N	913,918,2562,3940	
+BalI		Brevibacterium albidum	ATCC 15831	TGG^CCA	?(4)	BJKQRX	965,1029,3383,3410	
+BamHI		Bacillus amyloliquefaciens H	ATCC 49763	G^GATCC	5(4)	BCIJKMNOQRSVXY	341,851,913,918,924,1204,2097,2866,3420,3667	
+BanI	HgiCI	Bacillus aneurinolyticus	IAM 1077	G^GYRCC	5(5)	NR	913,918,922,1565,2072,2094,2095,2976,3238	
+BanII	HgiJII	Bacillus aneurinolyticus	IAM 1077	GRGCY^C	4(5)	KNX	913,918,965,1617,2053,2057,3238,3669	
+BarI		Bacillus sphaericus Bar	S.K. Degtyarev	(7/12)GAAGNNNNNNTAC(12/7)		I	480	
+BauI	BsiI	Bacillus aquaemaris RFL1	Fermentas G268	CACGAG(-5/-1)		B	2112,3537	
+BbrPI	PmaCI	Bacillus brevis	U. Mayr	CAC^GTG		M	3482	
+BbsI	BbvII	Bacillus brevis	NEB 573	GAAGAC(2/6)		N	913,3214,3937	
+BbvI		Bacillus brevis	ATCC 9999	GCAGC(8/12)	2(5),-2(5)	N	187,913,1046,1204,2327,2969	
+Bbv12I	HgiAI	Bacillus brevis 12	S.K. Degtyarev	GWGCW^C		IV	2816	
+BbvCI		Bacillus brevis	NEB 1030	CCTCAGC(-5/-2)	?(5)	N	913,1020,1222,1224,1767,2055,2311,2327	
+BccI		Bacteroides caccae	NEB 669	CCATC(4/5)	3(6)	N	913,918,2305,2311,2327	
+BceAI	BcefI	Bacillus cereus 1315	NEB 1288	ACGGC(12/14)	?(4)	N	913,2327,2468,2469,2474	
+BcgI		Bacillus coagulans	NEB 566	(10/12)CGANNNNNNTGC(12/10)	3(6),-3(6)	N	913,1695,1708,1709,1710	
+BciT130I	EcoRII	Bacillus circulans	Takara T130	CC^WGG		K	2954	
+BciVI		Bacillus circulans	NEB 1000	GTATCC(6/5)		N	913,918,1870,3615	
+BclI		Bacillus caldolyticus	A. Atkinson	T^GATCA	3(6)	BCJMNORS	260,913,918,953,2213,2214,2327,3226	
+BcnI	CauII	Bacillus centrosporus RFL1	A. Janulaitis	CC^SGG	2(4)	BK	1418,1431,1432,1680,2210,2211,2610	
+BcoDI	BsmAI	Bacteroides coprocola DSM 17136	DSM 17136	GTCTC(1/5)	?(5)	N	429,913,984,986	
+BcuI	SpeI	Bacillus coagulans Vs 29-022	A. Janulaitis	A^CTAGT		B	2109,3556	
+BfaI	MaeI	Bacteroides fragilis	NEB 1140	C^TAG		N	913,2072,2186,2187,2327,2793	
+BfmI	SfeI	Bacillus firmus S8-336	V. Butkus	C^TRYAG		B	2109,3495	
+BfoI	HaeII	Bacillus fusiformis RFL1	Fermentas G345	RGCGC^Y		B	3516	
+BfrI	AflII	Bacteroides fragilis	U. Mayr	C^TTAAG		MS	2711	
+BfuI	BciVI	Bacillus firmus Auk 22-m21	V. Butkus	GTATCC(6/5)		B	3522	
+BfuAI	BspMI	Bacillus fusiformis 1083	NEB 1292	ACCTGC(4/8)	2(5)	N	913,918,2327,2472,2474	
+BglI		Bacillus globigii	ATCC 49760	GCCNNNN^NGGC	2(4)	BCIJKNOQRVX	254,703,803,913,1859,2053,2071,2317,3447	
+BglII		Bacillus globigii	ATCC 49760	A^GATCT	5(4)	BCIJKMNOQRSVX	104,113,803,913,2317,2653,3209	
+BisI		Bacillus subtilis T30	S.K. Degtyarev	GC^NGC		I	526,1722,3760	
+BlnI	AvrII	Brevibacterium linens	IAM 1902	C^CTAGG		KMS	3774	
+BlpI	EspI	Bacillus species lp	NEB 819	GC^TNAGC	?(5)	N	438,913,1222,2072,2327,2671	
+BlsI	BisI	Bacillus simplex 23	S.K. Degtyarev	GCN^GC		I	507,508	
+BmcAI	ScaI	Bacillus macroides	Vivantis 181	AGT^ACT		V	447	
+Bme18I	AvaII	Bacillus megaterium 18	S.K. Degtyarev	G^GWCC		IV	745	
+Bme1390I	ScrFI	Bacillus megaterium RFL1390	A. Janulaitis	CC^NGG		B	1417	
+BmeRI	Eam1105I	Bacillus megaterium	Vivantis 32	GACNNN^NNGTC		V	447	
+BmeT110I	AvaI	Bacillus megaterium T110	Takara T110	C^YCGRG		BK	2954	
+BmgBI	BtrI	Bacillus thermoglucosidasius BmgB	NEB 1353	CACGTC(-3/-3)		N	913,918,1869,2471,3937	
+BmgT120I	AsuI	Bacillus megalosporus T120	Takara T120	G^GNCC		K	2954	
+BmiI	NlaIV	Bacillus megaterium	Vivantis 62	GGN^NCC		V	447	
+BmrI	BfiI	Bacillus megaterium GC subgroup A	NEB 1067	ACTGGG(5/4)	?(4)	N	181,913,1766,1868,2327,2998	
+BmrFI	ScrFI	Bacillus megaterium F	Vivantis 91	CC^NGG		V	447	
+BmsI	SfaNI	Bacillus massiliensis RFL101	Fermentas G358	GCATC(5/9)		B	3516	
+BmtI	NheI	Bacillus megaterium S2	NEB 1776	GCTAG^C	2(5)	INV	703,720,913,918,922,3702,3922	
+BmuI	BfiI	Bacillus megaterium S87	S.K. Degtyarev	ACTGGG(5/4)		I	718	
+BoxI	PshAI	Brevibacterium oxydans Iti 12-025	V. Butkus	GACNN^NNGTC		B	2109,3521	
+BpiI	BbvII	Bacillus pumilus sw 4-3	A. Janulaitis	GAAGAC(2/6)		B	1501	
+BplI		Bacillus pumilus	V. Butkus	(8/13)GAGNNNNNCTC(13/8)		B	2109,3528	
+BpmI	GsuI	Bacillus pumilus	NEB 711	CTGGAG(16/14)	?(6)	IN	740,913,3914	
+Bpu10I		Bacillus pumilus 10	NEB 1777	CCTNAGC(-5/-2)	?(5)	BINV	703,752,913,3185	
+Bpu14I	AsuII	Bacillus pumilus 14	S.K. Degtyarev	TT^CGAA		IV	3010	
+Bpu1102I	EspI	Bacillus pumilus RFL1102	A. Janulaitis	GC^TNAGC		BK	1441	
+BpuEI	Bce83I	Bacillus pumilus 2187a	NEB 1378	CTTGAG(16/14)	5(6)	N	913,918,2371,2474	
+BpuMI	CauII	Bacillus pumilus	Vivantis 371	CC^SGG		V	447	
+BsaI	Eco31I	Bacillus stearothermophilus 6-55	Z. Chen	GGTCTC(1/5)	-4(6)	N	913,918,1698,2311,3739,3942,3943	
+Bsa29I	ClaI	Bacillus species 29	S.K. Degtyarev	AT^CGAT		I	2807	
+BsaAI		Bacillus stearothermophilus G668	Z. Chen	YAC^GTR	3(5)	N	913,1695,1707,2327,3922	
+BsaBI		Bacillus stearothermophilus B674	NEB 537	GATNN^NNATC		N	466,913,918,919,3937,3940	
+BsaHI	AcyI	Bacillus stearothermophilus CPW11	Z. Chen	GR^CGYC	?(5)	N	463,913,2311,2430	
+BsaJI	SecI	Bacillus stearothermophilus J695	Z. Chen	C^CNNGG	?(4)	N	913,1698,2327,3739	
+BsaWI	BetI	Bacillus stearothermophilus W1718	Z. Chen	W^CCGGW	1(5)	N	463,913,918,922,2311,3703,3704,3739,3759	
+BsaXI		Bacillus stearothermophilus Cpw230	Z. Chen	(9/12)ACNNNNNCTCC(10/7)		N	465,913,2311,2671,3937,3940	
+Bsc4I	BsiYI	Bacillus schlegelii 4	V.E. Repin	CCNNNNN^NNGG	2(4)	I	692,730,2817	
+Bse1I	BsrI	Bacillus stearothermophilus 1	S.K. Degtyarev	ACTGG(1/-1)		IV	2807	
+Bse8I	BsaBI	Bacillus species 8	V.E. Repin	GATNN^NNATC		IV	730,2817	
+Bse21I	SauI	Bacillus species 21	S.K. Degtyarev	CC^TNAGG		IV	748,2811	
+Bse118I	Cfr10I	Bacillus species 118	V.E. Repin	R^CCGGY		IV	2803	
+BseAI	BspMII	Bacillus sphaericus BseA	V. Bouriotis	T^CCGGA		C	3324	
+BseBI	EcoRII	Bacillus stearothermophilus	V. Bouriotis	CC^WGG		C	2852	
+BseCI	ClaI	Bacillus species	V. Bouriotis	AT^CGAT	5(6)	C	2844,2847	
+BseDI	SecI	Bacillus stearothermophilus RFL1434	A. Janulaitis	C^CNNGG		B	1396,3486	
+Bse3DI	BsrDI	Bacillus stearothermophilus 3D	S.K. Degtyarev	GCAATG(2/0)		IV	10	
+BseGI	FokI	Bacillus stearothermophilus Vs 34-031	A. Janulaitis	GGATG(2/0)		B	3524	
+BseJI	BsaBI	Bacillus stearothermophilus Tsp5	V. Butkus	GATNN^NNATC		B	3523	
+BseLI	BsiYI	Bacillus stearothermophilus LK3-551	A. Janulaitis	CCNNNNN^NNGG		B	3504	
+BseMI	BsrDI	Bacillus stearothermophilus Isl 15-111	A. Janulaitis	GCAATG(2/0)		B	2109,3503	
+BseMII		Bacillus stearothermophilus Isl 15-111	A. Janulaitis	CTCAG(10/8)	4(6)	B	1497,2109	
+BseNI	BsrI	Bacillus species N	A. Janulaitis	ACTGG(1/-1)		B	1692	
+BsePI		Bacillus stearothermophilus P6	N. Welker	G^CGCGC		IV	730,1834	
+BseRI		Bacillus species R	CAMB 2669	GAGGAG(10/8)	5(6),-4(4)	N	913,918,919,2311,2379	
+BseSI		Bacillus stearothermophilus Jo-553	V. Butkus	GKGCM^C		B	3202	
+BseXI	BbvI	Bacillus stearothermophilus Ra 3-212	V. Butkus	GCAGC(8/12)		B	3497	
+BseX3I	XmaIII	Bacillus stearothermophilus X3	S.K. Degtyarev	C^GGCCG		IV	1616	
+BseYI		Bacillus species 2521	NEB 1396	CCCAGC(-5/-1)		N	251,913,2327,2470,2471	
+BsgI		Bacillus sphaericus GC subgroup	NEB 581	GTGCAG(16/14)	?(6)	N	913,1250,1711,2327	
+Bsh1236I	FnuDII	Bacillus sphaericus RFL1236	A. Janulaitis	CG^CG		B	1401	
+Bsh1285I	McrI	Bacillus sphaericus RFL1285	A. Janulaitis	CGRY^CG		B	1429	
+BshFI	HaeIII	Bacillus sphaericus	WHO/CCBC 2500	GG^CC		C	3563	
+BshNI	HgiCI	Bacillus sphaericus TK-45	A. Janulaitis	G^GYRCC		B	2114	
+BshTI	AgeI	Bacillus sphaericus Jo22-024	V. Butkus	A^CCGGT		B	2892	
+BshVI	ClaI	Bacillus sphaericus CKJ18	Vivantis 182	AT^CGAT		V	447	
+BsiEI	McrI	Bacillus species BsiE	D. Clark	CGRY^CG		N	913,918,2276,3703,3922	
+BsiHKAI	HgiAI	Bacillus stearothermophilus	P.C. Shaw	GWGCW^C		N	913,918,1896,3922	
+BsiHKCI	AvaI	Bacillus species HKC	P.M. Skowron	C^YCGRG		QX	3102	
+BsiSI	HpaII	Bacillus species BsiS	D. Clark	C^CGG		CY	2843	
+BsiWI	SplI	Bacillus species BsiW	D. Clark	C^GTACG	5(4)	N	560,913,918,2327,2495,3922,3940	
+BslI	BsiYI	Bacillus species	NEB 606	CCNNNNN^NNGG	2(4)	N	638,913,918,1318	
+BslFI	FinI	Bacillus stearothermophilus FI	S.K. Degtyarev	GGGAC(10/14)		I	2397	
+BsmI		Bacillus stearothermophilus NUB36	N. Welker	GAATGC(1/-1)		JMNS	548,913,2393,3914	
+BsmAI		Bacillus stearothermophilus A664	Z. Chen	GTCTC(1/5)	?(5)	N	913,1706,3913	
+BsmBI	Esp3I	Bacillus stearothermophilus B61	NEB 857	CGTCTC(1/5)	4(5),-4(6)	N	469,913,918,3739,3741,3742	
+BsmFI	FinI	Bacillus stearothermophilus F	Z. Chen	GGGAC(10/14)	?(6)	N	469,913,2327,3922,3940	
+BsnI	HaeIII	Bacillus species SJN7	Vivantis 78	GG^CC		V	447	
+Bso31I	Eco31I	Bacillus stearothermophilus E31	S.K. Degtyarev	GGTCTC(1/5)		IV	3066	
+BsoBI	AvaI	Bacillus stearothermophilus JN2091	D. Clark	C^YCGRG	1(4)	N	559,913,918,928,2891,3170	
+Bsp13I	BspMII	Bacillus species 13	S.K. Degtyarev	T^CCGGA		IV	730	
+Bsp19I	NcoI	Bacillus species 19	S.K. Degtyarev	C^CATGG		IV	703,730	
+Bsp68I	NruI	Bacillus species RFL68	A. Janulaitis	TCG^CGA		B	1400,1424	
+Bsp119I	AsuII	Bacillus species RFL119	A. Janulaitis	TT^CGAA		B	1424,3203	
+Bsp120I	ApaI	Bacillus species RFL120	A. Janulaitis	G^GGCCC		B	1407,1424	
+Bsp143I	MboI	Bacillus species RFL143	A. Janulaitis	^GATC		B	1396	
+Bsp1286I	SduI	Bacillus sphaericus	IAM 1286	GDGCH^C	4(5)	JKN	102,869,913,918,2393,2971,3053,3922	
+Bsp1407I		Bacillus stearothermophilus RFL1407	A. Janulaitis	T^GTACA		BK	2607	
+Bsp1720I	EspI	Bacillus species 1720	S.K. Degtyarev	GC^TNAGC		IV	738	
+BspACI	AciI	Bacillus species AC	S.K. Degtyarev	CCGC(-3/-1)	1(5)	I	491,3305	
+BspANI	HaeIII	Bacillus species AN	P.M. Skowron	GG^CC		X	3102	
+BspCNI	BseMII	Bacillus species 1310	NEB 1303	CTCAG(9/7)	4(6),-4(6)	N	913,918,919,2327,2468,2469,2474,2767	
+BspDI	ClaI	Bacillus species	NEB 595	AT^CGAT		N	913,1695,3937	
+BspEI	BspMII	Bacillus species	NEB 553	T^CCGGA		N	913,1704,2052,2064,2327,2496	
+BspFNI	FnuDII	Bacillus stearothermophilus FN	S.K. Degtyarev	CG^CG		I	504	
+BspHI		Bacillus species H	NEB 394	T^CATGA	3(6)	N	105,913,1162,2081,2311,2318,2327,2328,3209	
+BspLI	NlaIV	Bacillus species RJ3-212	V. Butkus	GGN^NCC		B	1863	
+BspMI		Bacillus species M	NEB 356	ACCTGC(4/8)	?(5)	N	913,2300,2311,2318,2327	
+BspMAI	PstI	Bacillus stearothermophilus MA	P.M. Skowron	CTGCA^G		X	3102	
+BspOI	NheI	Bacillus sphaericus RFL3	Fermentas G337	GCTAG^C		B	3512	
+BspPI	BinI	Bacillus species d 1-34	A. Janulaitis	GGATC(4/5)		B	2553	
+BspQI	SapI	Bacillus sphaericus	NEB 1214	GCTCTTC(1/4)		N	913,918,2327,2563,3739,3869,3924,3937	
+BspTI	AflII	Bacillus species RFL1265	A. Janulaitis	C^TTAAG		B	1396	
+BspT104I	AsuII	Bacillus species T104	Takara T104	TT^CGAA		K	2954	
+BspT107I	HgiCI	Bacillus species T107	Takara T107	G^GYRCC		K	2954	
+BspTNI	Eco31I	Bacillus species TN	P.M. Skowron	GGTCTC(1/5)		X	3102	
+BsrI		Bacillus stearothermophilus NEB 447	NEB 447	ACTGG(1/-1)	2(4),-1(4)	N	913,918,2072,2327,2679,3209	
+BsrBI		Bacillus stearothermophilus CPW193	Z. Chen	CCGCTC(-3/-3)	4(4),-4(4)	N	465,913,918,1223,1226,2327,3209	
+BsrDI		Bacillus stearothermophilus D70	Z. Chen	GCAATG(2/0)		N	465,913,2327,3763	
+BsrFI	Cfr10I	Bacillus stearothermophilus CPW16	Z. Chen	R^CCGGY	2(5)	N	109,463,913,918,3702,3752	
+BsrGI	Bsp1407I	Bacillus stearothermophilus GR75	Z. Chen	T^GTACA		N	471,881,913,918,3743	
+BssAI	Cfr10I	Bacillus species BssA	V. Bouriotis	R^CCGGY		C	2851	
+BssECI	SecI	Bacillus stearothermophilus EC	S.K. Degtyarev	C^CNNGG	1(4)	I	14,703,710	
+BssHII	BsePI	Bacillus stearothermophilus H3	ATCC 49820	G^CGCGC	?(5)	JKMNQRX	913,918,919,1834,2973,2992,3757	
+BssMI	MboI	Bacillus species	Vivantis 11	^GATC		V	228,447	
+BssNI	AcyI	Bacillus sphaericus KTN	Vivantis 111	GR^CGYC		V	447	
+BssNAI	SnaI	Bacillus stearothermophilus NA	S.K. Degtyarev	GTA^TAC		IV	3065	
+BssSI	BsiI	Bacillus stearothermophilus 27S	NEB 2935	CACGAG(-5/-1)	5(6),-1(4)	N	913,918,1227,2560,3209	
+BssT1I	StyI	Bacillus stearothermophilus T1	S.K. Degtyarev	C^CWWGG		IV	703,730	
+Bst6I	Ksp632I	Bacillus stearothermophilus 6	S.K. Degtyarev	CTCTTC(1/4)		IV	13,703	
+Bst1107I	SnaI	Bacillus stearothermophilus RFL1107	A. Janulaitis	GTA^TAC		BK	1417	
+BstACI	AcyI	Bacillus stearothermophilus AC	S.K. Degtyarev	GR^CGYC		I	210	
+BstAFI	AflII	Bacillus stearothermophilus AF	S.K. Degtyarev	C^TTAAG		I	482	
+BstAPI	ApaBI	Bacillus stearothermophilus AP	NEB 1778	GCANNNN^NTGC	3(6)	IN	6,703,913,918,3937	
+BstAUI	Bsp1407I	Bacillus stearothermophilus AU	S.K. Degtyarev	T^GTACA		IV	18,703	
+BstBI	AsuII	Bacillus stearothermophilus B225	Z. Chen	TT^CGAA		N	466,913,918,941,2311,3615	
+Bst2BI	BsiI	Bacillus stearothermophilus 2B	S.K. Degtyarev	CACGAG(-5/-1)		I	3	
+BstBAI	BsaAI	Bacillus stearothermophilus BA	S.K. Degtyarev	YAC^GTR		IV	27	
+Bst4CI	Tsp4CI	Bacillus stearothermophilus 4C	S.K. Degtyarev	ACN^GT		IV	3067	
+BstC8I	Cac8I	Bacillus stearothermophilus C8	S.K. Degtyarev	GCN^NGC	2(5)	I	15,694,703	
+BstDEI	DdeI	Bacillus stearothermophilus DE	S.K. Degtyarev	C^TNAG		IV	3068	
+BstDSI	DsaI	Bacillus stearothermophilus DS	S.K. Degtyarev	C^CRYGG		IV	212,703	
+BstEII		Bacillus stearothermophilus ET	ATCC 49830	G^GTNACC	5(6)	CJNR	438,913,918,1856,2189,2327,2330,3604	
+BstENI	EcoNI	Bacillus stearothermophilus EN	S.K. Degtyarev	CCTNN^NNNAGG		IV	13	
+BstF5I	FokI	Bacillus stearothermophilus F5	S.K. Degtyarev	GGATG(2/0)	-2(6)	IV	23,489,741	
+BstFNI	FnuDII	Bacillus stearothermophilus	S.K. Degtyarev	CG^CG		IV	2428	
+BstH2I	HaeII	Bacillus stearothermophilus H2	S.K. Degtyarev	RGCGC^Y		IV	22	
+BstHHI	HhaI	Bacillus stearothermophilus HH	S.K. Degtyarev	GCG^C		IV	3026	
+BstKTI	MboI	Bacillus stearothermophilus KT	S.K. Degtyarev	GAT^C		I	2395	
+BstMAI	BsmAI	Bacillus stearothermophilus MA	S.K. Degtyarev	GTCTC(1/5)		IV	500,703	
+BstMBI	MboI	Bacillus stearothermophilus MB	S.K. Degtyarev	^GATC		IV	1736	
+BstMCI	McrI	Bacillus stearothermophilus MC	S.K. Degtyarev	CGRY^CG		IV	212	
+BstMWI	MwoI	Bacillus stearothermophilus MW	S.K. Degtyarev	GCNNNNN^NNGC		I	703,2396	
+BstNI	EcoRII	Bacillus stearothermophilus	D.G. Comb	CC^WGG	2(4)	N	192,913,918,2974,3937	
+BstNSI	NspI	Bacillus stearothermophilus 1161NS	S.K. Degtyarev	RCATG^Y		IV	11,703	
+BstPI	BstEII	Bacillus stearothermophilus	ATCC 12980	G^GTNACC		K	2728	
+BstPAI	PshAI	Bacillus stearothermophilus PA	S.K. Degtyarev	GACNN^NNGTC		IV	3356	
+BstSCI	ScrFI	Bacillus stearothermophilus SC	S.K. Degtyarev	^CCNGG		I	713	
+BstSFI	SfeI	Bacillus stearothermophilus SF	S.K. Degtyarev	C^TRYAG		I	212	
+BstSLI	BseSI	Bacillus stearothermophilus SL	S.K. Degtyarev	GKGCM^C		I	497,703	
+BstSNI	SnaBI	Bacillus stearothermophilus SN	S.K. Degtyarev	TAC^GTA		IV	2390	
+BstUI	FnuDII	Bacillus stearothermophilus U458	Z. Chen	CG^CG	?(5)	N	466,913,3897	
+Bst2UI	EcoRII	Bacillus stearothermophilus 2U	S.K. Degtyarev	CC^WGG		IV	2391	
+BstV1I	BbvI	Bacillus stearothermophilus V1	S.K. Degtyarev	GCAGC(8/12)		I	714	
+BstV2I	BbvII	Bacillus stearothermophilus V2	S.K. Degtyarev	GAAGAC(2/6)		IV	703,3096	
+BstXI		Bacillus stearothermophilus X1	N. Welker	CCANNNNN^NTGG	3(6)	BIJKMNQRVXY	703,913,918,934,941,1834,2495,3104,3679,3924,3937	
+BstX2I	XhoII	Bacillus stearothermophilus X2	S.K. Degtyarev	R^GATCY		IV	212	
+BstYI	XhoII	Bacillus stearothermophilus Y406	Z. Chen	R^GATCY	5(4)	N	467,913,918,919,3226,3749	
+BstZI	XmaIII	Bacillus stearothermophilus Z130	Z. Chen	C^GGCCG		R	466,1660	
+BstZ17I	SnaI	Bacillus stearothermophilus 38M	Z. Chen	GTA^TAC		N	913,918,2311,2560,3615	
+BsuI	BciVI	Bacillus sphaericus Bsu	S.K. Degtyarev	GTATCC(6/5)		I	492,703	
+Bsu15I	ClaI	Bacillus subtilis 15	S.K. Degtyarev	AT^CGAT	5(6)	B	1423,2709	
+Bsu36I	SauI	Bacillus subtilis 36	B. Zhou	CC^TNAGG	2(4)	N	913,918,919,1222,2055,2327,3909	
+BsuRI	HaeIII	Bacillus subtilis strain R	T.A. Trautner	GG^CC	3(5)	BI	338,339,1139,1662	
+BsuTUI	ClaI	Bacillus subtilis TU	P.M. Skowron	AT^CGAT		X	3102	
+BtgI	DsaI	Bacillus thermoglucosidasius Btg	NEB 1165	C^CRYGG		N	913,1004,2563,3922	
+BtgZI		Bacillus thermoglucosidasius BtgZ	NEB 1384	GCGATG(10/14)	?(6)	N	105,913,2049,2311,2329,2562,3937	
+BtrI		Bacillus stearothermophilus SE-U62	S.K. Degtyarev	CACGTC(-3/-3)		I	733	
+BtsI		Bacillus thermoglucosidasius	NEB 1137	GCAGTG(2/0)		N	913,1004,2327,2562,3763	
+BtsIMutI		Bacillus thermoglucosidasius	NEB 1137	CAGTG(2/0)		N	913,1127,3922	
+BtsCI	FokI	Bacillus thermosphaericus	NEB 1621	GGATG(2/0)		N	913,2327,2562,3363,3940	
+BtuMI	NruI	Brevibacillus thermoruber	Vivantis 61	TCG^CGA		V	447	
+BveI	BspMI	Brevundimonas vesicularis RFL1	V. Butkus	ACCTGC(4/8)		B	2267	
+Cac8I		Clostridium acetobutylicum ABKn8	G. Reysett	GCN^NGC	2(5)	N	148,913,918,922,948,2072,2327	
+CaiI	AlwNI	Comamonas acidovarans Iti19-021	V. Butkus	CAGNNN^CTG		B	3540	
+CciI	BspHI	Curtobacterium citreus	S.K. Degtyarev	T^CATGA		I	493,703	
+CciNI	NotI	Curtobacterium citreum N	S.K. Degtyarev	GC^GGCCGC		IV	722	
+CfoI	HhaI	Clostridium formicoaceticum	ATCC 23439	GCG^C		MRS	2100	
+Cfr9I	SmaI	Citrobacter freundii	A. Janulaitis	C^CCGGG	2(4)	B	371,1435,1437,2018,3089	
+Cfr10I		Citrobacter freundii RFL10	A. Janulaitis	R^CCGGY	2(5)	BK	1105,1434,1437,1680	
+Cfr13I	AsuI	Citrobacter freundii RFL13	A. Janulaitis	G^GNCC	4(5)	B	269,1435	
+Cfr42I	SacII	Citrobacter freundii RFL42	A. Janulaitis	CCGC^GG	?(5)	B	1015,1861,2841	
+ClaI		Caryophanon latum L	ATCC 49862	AT^CGAT	5(6)	BKMNQRSX	913,2001,2163,2169,2327,3108	
+CpoI	RsrII	Caseobacter polymorphus	ATCC 33010	CG^GWCCG		BK	1733,2671	
+CseI	HgaI	Chryseobacterium species RFL1	Fermentas G281	GACGC(5/10)		B	2436	
+CsiI	SexAI	Cellulomonas species RFL1	Fermentas G356	A^CCWGGT		B	3509	
+CspI	RsrII	Corynebacterium species	M. Nelson	CG^GWCCG		R	2442	
+Csp6I	RsaI	Corynebacterium species RFL6	A. Janulaitis	G^TAC		B	1427,2839	
+CspAI	AgeI	Corynebacterium species 301	N.N. Sokolov	A^CCGGT		C	2850	
+CspCI		Citrobacter species 2144	NEB 1398	(11/13)CAANNNNNGTGG(12/10)	3(6),-3(6)	N	913,918,919,2056,2072,2302,2308	
+CviAII	NlaIII	Chlorella virus NC64A (PBCV-1)	J.L. Van Etten	C^ATG	2(6)	N	805,913,1144,3878	
+CviJI		Chlorella virus IL-3A	J.L. Van Etten	RG^CY	3(5),-3(5)	QX	1442,3054,3274,3710	
+CviKI-1	CviJI	Chlorella virus CA-1A	J.L. Van Etten	RG^CY		N	3739	
+CviQI	RsaI	Chlorella virus NY-2A	J.L. Van Etten	G^TAC	3(6)	N	903,913,3445,3713,3876,3877,3922	
+DdeI		Desulfovibrio desulfuricans Norway strain	NCIB 83120	C^TNAG	1(5)	KMNOQRSX	340,913,1030,1317,2101,3282	
+DinI	NarI	Deinococcus indicus	Vivantis 83	GGC^GCC		V	447	
+DpnI		Diplococcus pneumoniae	S. Lacks	GA^TC		BEKMNOQRSX	913,1023,1818,1819	
+DpnII	MboI	Diplococcus pneumoniae	S. Lacks	^GATC	2(6)	N	678,913,1818,1819,1820,1821	
+DraI	AhaIII	Deinococcus radiophilus	ATCC 27603	TTT^AAA	6(6)	BIJKMNQRSVX	228,1796,2311,2327,2730	
+DraIII		Deinococcus radiophilus	ATCC 27603	CACNNN^GTG	2(6)	IMNV	686,913,1122,1703	
+DrdI		Deinococcus radiodurans	NEB 479	GACNNNN^NNGTC	2(6)	N	566,913,918,935,936,2681	
+DriI	Eam1105I	Deinococcus radiodurans EA	S.K. Degtyarev	GACNNN^NNGTC		I	24	
+DseDI	DrdI	Deinococcus species Dx	S.K. Degtyarev	GACNNNN^NNGTC		IV	19	
+EaeI	CfrI	Enterobacter aerogenes	P.R. Whitehead	Y^GGCCR	4(5)	KN	913,1389,1895,3647	
+EagI	XmaIII	Enterobacter agglomerans	NEB 368	C^GGCCG	4(5)	N	342,913,2296,2327,2860,2925,3739	
+Eam1104I	Ksp632I	Enterobacter amnigenus RFL1104	A. Janulaitis	CTCTTC(1/4)		B	1417	
+Eam1105I		Enterobacter amnigenus RFL1105	A. Janulaitis	GACNNN^NNGTC		B	1419	
+EarI	Ksp632I	Enterobacter aerogenes	NEB 450	CTCTTC(1/4)	-5(6)	N	913,2072,2311,2327,2682,3924	
+EciI		Escherichia coli	NEB 484	GGCGGA(11/9)		N	643,913,939,2368,3937	
+Ecl136II	SacI	Enterobacter cloacae RFL136	A. Janulaitis	GAG^CTC		B	1439	
+EclXI	XmaIII	Enterobacter cloacae 590	U. Mayr	C^GGCCG		S	290	
+Eco24I	HgiJII	Escherichia coli RFL24	A. Janulaitis	GRGCY^C		B	1399,2425	
+Eco31I		Escherichia coli RFL31	A. Janulaitis	GGTCTC(1/5)	-4(6)	B	267,268,367	
+Eco32I	EcoRV	Escherichia coli RFL32	A. Janulaitis	GAT^ATC		B	1437,2108,3432	
+Eco47I	AvaII	Escherichia coli RFL47	A. Janulaitis	G^GWCC		B	372,802,1428,2012,2020,3159,3907	
+Eco47III		Escherichia coli RFL47	A. Janulaitis	AGC^GCT		BMRS	1428	
+Eco52I	XmaIII	Escherichia coli RFL52	A. Janulaitis	C^GGCCG		BK	372,1437	
+Eco57I		Escherichia coli RFL57	A. Janulaitis	CTGAAG(16/14)	5(6)	B	1430,2609	
+Eco72I	PmaCI	Escherichia coli RFL72	A. Janulaitis	CAC^GTG		B	1573	
+Eco81I	SauI	Escherichia coli RFL81	A. Janulaitis	CC^TNAGG		BK	1413	
+Eco88I	AvaI	Escherichia coli RFL88	A. Janulaitis	C^YCGRG		B	1412,1424,2013	
+Eco91I	BstEII	Escherichia coli RFL91	A. Janulaitis	G^GTNACC		B	1415,2427	
+Eco105I	SnaBI	Escherichia coli RFL105	A. Janulaitis	TAC^GTA		B	1439	
+Eco130I	StyI	Escherichia coli RFL130	A. Janulaitis	C^CWWGG		B	1043,1407	
+Eco147I	StuI	Escherichia coli RFL147	A. Janulaitis	AGG^CCT		B	1042,1407,3186	
+EcoICRI	SacI	Escherichia coli 2bT	ICR 0020	GAG^CTC		IRV	3240,3789	
+EcoNI		Escherichia coli	NEB 441	CCTNN^NNNAGG	2(4)	N	105,913,1163,2311,2327,3922,3940	
+EcoO65I	BstEII	Escherichia coli K11a	K. Mise	G^GTNACC		K	3397	
+EcoO109I	DraII	Escherichia coli H709c	I. Orskov	RG^GNCCY	5(5)	BJKN	913,1670,1671,2242,3739	
+EcoP15I		Escherichia coli P15	W. Arber	CAGCAG(25/27)	5(6)	N	47,913,1151,2204,2268,2795,3569	
+EcoRI		Escherichia coli RY13	R.N. Yoshimori	G^AATTC	3(6)	BCIJKMNOQRSVXY	59,801,913,965,1108,1212,2446,2649,3300,3675	
+EcoRII		Escherichia coli R245	R.N. Yoshimori	^CCWGG	2(5)	BJ	256,315,366,2733,2822,3156,3157,3811	
+EcoRV		Escherichia coli J62 pLG74	L.I. Glatman	GAT^ATC	2(6)	BCIJKMNOQRSVX	175,864,913,965,1604,2500,2970,3489,3675,3833	
+EcoT14I	StyI	Escherichia coli TB14	N. Terakado	C^CWWGG		K	3809	
+EcoT22I	AvaIII	Escherichia coli TB22	N. Terakado	ATGCA^T		BK	846,2243	
+EcoT38I	HgiJII	Escherichia coli TH38	K. Mise	GRGCY^C	4(5)	J	1667,2243,2733,3409	
+Eco53kI	SacI	Escherichia coli 53k	A.S. Solonin	GAG^CTC		N	427,763,913	
+EgeI	NarI	Enterobacter gergoviae NA	S.K. Degtyarev	GGC^GCC		I	715	
+EheI	NarI	Erwinia herbicola 9/5	A. Janulaitis	GGC^GCC		B	1782	
+ErhI	StyI	Erwinia rhapontici	S.K. Degtyarev	C^CWWGG		I	3906	
+Esp3I		Erwinia species RFL3	A. Janulaitis	CGTCTC(1/5)	4(5),-4(6)	BN	266,267,913	
+FaeI	NlaIII	Flavobacterium aquatile N3	S.K. Degtyarev	CATG^		I	498,703	
+FaiI		Flavobacterium aquatile B15	S.K. Degtyarev	YA^TR		I	488	
+FalI		Flavobacterium aquatile Ob10	S.K. Degtyarev	(8/13)AAGNNNNNCTT(13/8)		I	726	
+FaqI	FinI	Flavobacterium aquatile RFL1	Fermentas G263	GGGAC(10/14)		B	3533	
+FatI	NlaIII	Flavobacterium aquatile NL3	NEB 1779	^CATG	1(5)	IN	700,702,703,708,913,918,2311	
+FauI		Flavobacterium aquatile	NEB 1780	CCCGC(4/6)		IN	703,731,737,913,918	
+FauNDI	NdeI	Flavobacterium aquatile ND	S.K. Degtyarev	CA^TATG		IV	3049	
+FbaI	BclI	Flavobacterium balustinum	ATCC 33487	T^GATCA		K	3216,3773	
+FblI	AccI	Flavobacterium balustinum	S.K. Degtyarev	GT^MKAC		IV	730	
+Fnu4HI		Fusobacterium nucleatum 4H	M. Smith	GC^NGC	2(5)	N	913,918,965,1919,2311,2327,3431	
+FokI		Flavobacterium okeanokoites	IFO 12536	GGATG(9/13)	3(6),-2(6)	BIJKMNVXY	409,656,681,913,1141,1774,1831,1936,2148,2694,2695,3190,3236,3237,3296,3429,3430	
+FriOI	HgiJII	Flavobacterium species O9	S.K. Degtyarev	GRGCY^C		IV	209,703	
+FseI		Frankia species Eul1b	NRRL 18528	GGCCGG^CC	?(5)	N	913,2311,2315,2327,2438	
+FspI	MstI	Fischerella species	ATCC 29114	TGC^GCA	?(5)	JN	548,913,2327,3277,3603,3672	
+FspAI		Flexibacter species Tv-m21K	V. Butkus	RTGC^GCAY		B	1595	
+FspBI	MaeI	Flavobacterium species RFLI	A. Janulaitis	C^TAG		B	3188	
+FspEI		Frankia species EAN1pec	L.S. Tisa	CC(12/16)		N	3898,3904	
+Fsp4HI	Fnu4HI	Flavobacterium species 4H	S.K. Degtyarev	GC^NGC	2(5)	I	527	
+GlaI		Glacial ice bacterium GL29	S.K. Degtyarev	GC^GC		I	501	
+GluI	BisI	Glacial ice bacterium GL24	S.K. Degtyarev	GC^NGC		I	486,487	
+GsaI	BseYI	Geobacillus stearothermophilus Y	S.K. Degtyarev	CCCAGC(-1/-5)		I	703,711	
+GsuI		Gluconobacter suboxydans H-15T	M.S. Loytsianskaya	CTGGAG(16/14)		B	1402,2609,3432	
+HaeII		Haemophilus aegyptius	ATCC 11116	RGCGC^Y	?(5)	JKNR	913,2053,2388,2733,2862,3195,3402	
+HaeIII		Haemophilus aegyptius	ATCC 11116	GG^CC	3(5)	BIJKMNOQRSX	338,913,2119,2221,2388,2733	
+HapII	HpaII	Haemophilus aphrophilus	ATCC 19415	C^CGG	2(5)	BK	1267,3241,3294	
+HgaI		Haemophilus gallinarum	ATCC 14385	GACGC(5/10)	3(5)	IN	347,703,913,1830,2053,2349,3235,3242,3294,3673	
+HhaI		Haemophilus haemolyticus	ATCC 10014	GCG^C	2(5)	BJKNQRX	913,943,2118,2327,2859,2864,3157	
+Hin1I	AcyI	Haemophilus influenzae RFL1	A. Janulaitis	GR^CGYC		BK	1862	
+Hin1II	NlaIII	Haemophilus influenzae RFL1	A. Janulaitis	CATG^		B	1862	
+Hin6I	HhaI	Haemophilus influenzae RFL6	A. Janulaitis	G^CGC		B	1862	
+HinP1I	HhaI	Haemophilus influenzae P1	S. Shen	G^CGC	2(5)	N	186,913,2327,2733,3046,3209	
+HincII	HindII	Haemophilus influenzae Rc	ATCC 49699	GTY^RAC	5(6)	BJKNOQRX	233,913,1351,1375,1376,1832,3571	
+HindII		Haemophilus influenzae Rd	ATCC 51907	GTY^RAC	5(6)	IMSV	703,908,910,911,940,1583,2889,2890,3113	
+HindIII		Haemophilus influenzae Rd	ATCC 51907	A^AGCTT	1(6)	BCIJKMNOQRSVXY	908,909,910,911,913,940,2536,2889,2890	
+HinfI		Haemophilus influenzae Rf (strain Dingles)	G. Leidy	G^ANTC	2(6)	BCIJKMNOQRVXY	193,433,703,913,1325,1346,2222,2311,2318,2373,3209,3386,3668	
+HpaI		Haemophilus parainfluenzae	ATCC 49669	GTT^AAC	5(6)	BCIJKMNQRSVX	231,232,913,918,919,1013,1377,3038,3804	
+HpaII		Haemophilus parainfluenzae	ATCC 49669	C^CGG	2(5)	BINQRVX	109,371,445,913,918,919,1013,1780,2119,2733,3038,3157	
+HphI		Haemophilus parahaemolyticus	ATCC 49700	GGTGA(8/7)	5(6)	BN	662,913,1677,2017,2222,2440	
+Hpy8I	MjaIV	Helicobacter pylori A 8-5	A. Janulaitis	GTN^NAC	5(6)	B	2019,2109,3548	
+Hpy99I		Helicobacter pylori J99	R.A. Alm	CGWCG^	4(4)	N	70,201,913,1758,1959,2335,3209	
+Hpy166II	MjaIV	Helicobacter pylori J166	M.J. Blaser	GTN^NAC		N	913,1971,3109,3731,3922,3924	
+Hpy188I		Helicobacter pylori J188	M.J. Blaser	TCN^GA	5(6)	N	913,3735	
+Hpy188III	Hpy178III	Helicobacter pylori J188	M.J. Blaser	TC^NNGA		N	913,2334,3732	
+HpyAV	Hin4II	Helicobacter pylori 26695	D.E. Berg	CCTTC(6/5)	2(5),-3(6)	N	428,913,1246,1676,1711,1758,1788,1961,3355,3739	
+HpyCH4III	Tsp4CI	Helicobacter pylori CH4	M.J. Blaser	ACN^GT		N	913,2333,3922	
+HpyCH4IV	MaeII	Helicobacter pylori CH4	M.J. Blaser	A^CGT	2(5)	N	913,2332	
+HpyCH4V	CviRI	Helicobacter pylori CH4	M.J. Blaser	TG^CA		N	913,2331	
+HpyF3I	DdeI	Helicobacter pylori RFL3	V. Butkus	C^TNAG		B	2107,3538	
+HpyF10VI	MwoI	Helicobacter pylori RFL10	V. Butkus	GCNNNNN^NNGC		B	2109,3538	
+HpySE526I	MaeII	Helicobacter pylori SE526	S.K. Degtyarev	A^CGT		I	1079	
+Hsp92I	AcyI	Haemophilus species 92	R. Williams	GR^CGYC		R	68	
+Hsp92II	NlaIII	Haemophilus species 92	R. Williams	CATG^		R	68	
+HspAI	HhaI	Haemophilus species A	S.K. Degtyarev	G^CGC	2(5)	IV	478,2784	
+KasI	NarI	Kluyvera ascorbata	NEB 593	G^GCGCC	?(5)	N	913,2327,2673,2860,3431	
+KflI	SanDI	Kribbella flavida RFL1	Fermentas G320	GG^GWCCC		B	1850,3832	
+KpnI		Klebsiella pneumoniae OK8	ATCC 49790	GGTAC^C	4(6)	BCIJKMNOQRSVXY	443,444,446,913,1661,2402,2522,3112,3354,3739	
+Kpn2I	BspMII	Klebsiella pneumoniae RFL2	A. Janulaitis	T^CCGGA	?(5)	B	1396,1407,2015	
+KroI		Kocurea rosea 307	S.K. Degtyarev	G^CCGGC		I	730	
+KspI	SacII	Kluyvera species	U. Mayr	CCGC^GG		MS	293	
+Ksp22I	BclI	Kurthia species 22	S.K. Degtyarev	T^GATCA		IV	730	
+KspAI	HpaI	Kurthia species N88	A. Janulaitis	GTT^AAC		B	3438	
+Kzo9I	MboI	Kurthia zopfii 9	S.K. Degtyarev	^GATC		I	745	
+LguI	SapI	Lysobacter gummosus RFL1	Fermentas G307	GCTCTTC(1/4)		B	3511	
+LmnI		Lysinibacillus manganicus An22	S.K. Degtyarev	GCTCC(1/-1)		I	695	
+LpnPI		Legionella pneumophila subsp. pneumophila Philadelphia 1	J.J. Russo	CCDG(10/14)		N	516,573,3904	
+Lsp1109I	BbvI	Listeria species RFL1109	A. Janulaitis	GCAGC(8/12)	?(5)	B	1393,1409,1763,2013,3832	
+LweI	SfaNI	Listeria welshimeri RFL 131	V. Butkus	GCATC(5/9)		B	3554	
+MabI	SexAI	Microbacterium arborescens SE	S.K. Degtyarev	A^CCWGGT		I	2399	
+MaeI		Methanococcus aeolicus PL-15/H	K.O. Stetter	C^TAG		M	957,2980	
+MaeII		Methanococcus aeolicus PL-15/H	K.O. Stetter	A^CGT		M	918,2980,3937	
+MaeIII		Methanococcus aeolicus PL-15/H	K.O. Stetter	^GTNAC		MS	2980	
+MalI	DpnI	Marinococus albus I	S.K. Degtyarev	GA^TC		I	479	
+MauBI		Microbacterium aurum RFL2	Fermentas G348	CG^CGCGCG		B	3515,3832	
+MbiI	BsrBI	Moraxella bovis Fr1-022	A. Janulaitis	CCGCTC(-3/-3)		B	2109,3505	
+MboI		Moraxella bovis ATCC 10900	ATCC 10900	^GATC	2(6)	BCKNQRXY	104,913,918,1028,1325,3413,3416	
+MboII		Moraxella bovis ATCC 10900	ATCC 10900	GAAGA(8/7)	?(4),-2(4)	BIJKNQRVX	344,438,852,913,918,991,1028,2172	
+MfeI		Mycoplasma fermentans	N.F. Halden	C^AATTG	3(6)	IN	913,930,1157,1158,2327,3209,3739,3923,3924,3925,3926,3927,3928,3929,3930,3931,3932,3933,3934	
+MflI	XhoII	Microbacterium flavum	IAM 1642	R^GATCY		K	1269	
+MhlI	SduI	Micrococcus halobius SD	S.K. Degtyarev	GDGCH^C		IV	703,3025	
+MlsI	BalI	Micrococcus luteus Ng 16-122	A. Janulaitis	TGG^CCA		B	3541	
+MluI		Micrococcus luteus	IFO 12992	A^CGCGT	?(4)	BIJKMNOQRSVX	913,2327,3209,3236,3716,3717	
+MluCI	TspEI	Micrococcus luteus	NEB 1223	^AATT		N	2072,2474,3208	
+MluNI	BalI	Micrococcus luteus N	S.K. Degtyarev	TGG^CCA		M	730	
+MlyI	PleI	Micrococcus lylae	NBL 2048	GAGTC(5/5)	2(6)	N	826,913,918,919,1247,1695,1701,3209	
+Mly113I	NarI	Micrococcus lylae 113	S.K. Degtyarev	GG^CGCC		I	729	
+MmeI		Methylophilus methylotrophus	W.J. Brammar	TCCRAC(20/18)	5(6)	NX	314,913,2311,3403,3425	
+MnlI		Moraxella nonliquefaciens	ATCC 17953	CCTC(7/6)	-2(6)	BINQVX	331,913,1183,1761,2969,3828	
+Mox20I	BalI	Microbacterium oxydans 20	V.S. Dedkov	TGG^CCA		I	695	
+Mph1103I	AvaIII	Moraxella phenylpyruvica RFL1103	A. Janulaitis	ATGCA^T		B	1429	
+MreI	Sse232I	Micromonospora rhodorangea RFL1	Fermentas G296	CG^CCGGCG		B	2110,3545	
+MroI	BspMII	Micrococcus roseus	F. Kato	T^CCGGA		MO	1558	
+MroNI	NaeI	Micrococcus roseus N	S.K. Degtyarev	G^CCGGC		IV	697	
+MroXI	XmnI	Micrococcus roseus XM	S.K. Degtyarev	GAANN^NNTTC		IV	9,703	
+MscI	BalI	Micrococcus species	NEB 502	TGG^CCA		NO	913,2193,2194,2327,2670	
+MseI		Micrococcus species	NEB 446	T^TAA	4(6)	N	2311,2312,3433,3434,3435,3436	
+MslI		Moraxella osloensis	NEB 722	CAYNN^NNRTG		N	913,918,2311,2740,3937	
+MspI	HpaII	Moraxella species ATCC 49670	ATCC 49670	C^CGG	1(5)	BIJKNQRVX	109,371,913,918,1314,1446,2141,2733,2973,3449,3574,3702	
+Msp20I	BalI	Micrococcus species	S.K. Degtyarev	TGG^CCA		V	472	
+MspA1I	NspBII	Moraxella species A1	S.K. Degtyarev	CMG^CKG	?(4)	INRV	730,913,3739,3745	
+MspCI	AflII	Micrococcus species	V. Bouriotis	C^TTAAG		C	2854	
+MspJI		Mycobacterium species JLS	C.D. Miller	CNNR(9/13)		N	610,3898,3904	
+MspR9I	ScrFI	Micrococcus species R9	S.K. Degtyarev	CC^NGG		I	2800	
+MssI	PmeI	Methylobacterium species Dd 5-732	V. Butkus	GTTT^AAAC		B	3555	
+MteI		Microbacterium testaceum 17B	S.K. Degtyarev	GCGC^NGCGC		I	495	
+MunI	MfeI	Mycoplasma species	A. Janulaitis	C^AATTG	3(6)	BKMS	3180	
+MvaI	EcoRII	Micrococcus varians RFL19	A. Janulaitis	CC^WGG	2(4)	BM	369,1683,2021,3042	
+Mva1269I	BsmI	Micrococcus varians RFL1269	A. Janulaitis	GAATGC(1/-1)		B	129,669,1405	
+MvnI	FnuDII	Methanococcus vannielii	M. Thomm	CG^CG		M	3332	
+MwoI		Methanobacterium wolfei	DSM 2970	GCNNNNN^NNGC	?(4)	N	913,2063,2065,2070,2072	
+NaeI		Nocardia aerocolonigenes	ATCC 23870	GCC^GGC	?(5)	CKN	913,1146,1147,2053,3306	
+NarI		Nocardia argentinensis	ATCC 31306	GG^CGCC		JMNQRX	592,913,3922,3937	
+NciI	CauII	Neisseria cinerea	NRCC 31006	CC^SGG	2(4)	JNR	561,913,1719,2072,2196,2327,3610	
+NcoI		Nocardia corallina	ATCC 19070	C^CATGG	?(4)	BCJKMNOQRSXY	913,1834,3457,3458,3859	
+NdeI		Neisseria denitrificans	NRCC 31009	CA^TATG	4(6)	BJKMNQRSX	228,561,913,2327,3090,3209,3611	
+NdeII	MboI	Neisseria denitrificans	NRCC 31009	^GATC		JM	3491	
+NgoMIV	NaeI	Neisseria gonorrhoeae MS11	M. So	G^CCGGC	2(5)	N	515,517,913,1133,2830,3193,3196,3601,3919	
+NheI		Neisseria mucosa	ATCC 25999	G^CTAGC	6(4)	BCJKMNOQRSX	586,913,930,3753	
+NlaIII		Neisseria lactamica	NRCC 2118	CATG^	2(6)	N	913,1813,2053,2313,2738,3209	
+NlaIV		Neisseria lactamica	NRCC 2118	GGN^NCC	?(5)	N	913,1841,2053,2738	
+NmeAIII		Neisseria meningitidis Z2491	M. Achtman	GCCGAG(21/19)	5(6)	N	913,2316,2325,3209,3425	
+NmuCI	Tsp45I	Neisseria mucosa C9-2	V. Butkus	^GTSAC		B	3439	
+NotI		Nocardia otitidis-caviarum	ATCC 14630	GC^GGCCGC	2(4)	BCJKMNOQRSX	302,913,918,924,2319,2327,2739,2860	
+NruI		Nocardia rubra ATCC 15906	ATCC 15906	TCG^CGA	2(4)	BCIJKMNQRSX	590,913,918,965,2327,3922,3935	
+NsbI	MstI	Neisseria subflava Va-1	A. Janulaitis	TGC^GCA		B	3542	
+NsiI	AvaIII	Neisseria sicca	ATCC 29256	ATGCA^T	5(6)	JMNQRSX	913,918,2000,2975,3622,3715,3922	
+NspI		Nostoc species C	ATCC 29411	RCATG^Y	2(5)	N	913,2782,2860,3755	
+NspV	AsuII	Nostoc species C	ATCC 29411	TT^CGAA		J	172,2782,3414,3415	
+OliI		Oceanospirillum linum 4-5D	V. Butkus	CACNN^NNGTG		B	2554	
+PacI		Pseudomonas alcaligenes	NEB 585	TTAAT^TAA		BNO	107,1796,2311,2326,2327,2672,2674	
+PaeI	SphI	Pseudomonas aeruginosa	N.N. Sokolov	GCATG^C		B	2841,3140	
+PaeR7I	XhoI	Pseudomonas aeruginosa	G.A. Jacoby	C^TCGAG	5(6)	N	913,1038,1044,1266,3325	
+PagI	BspHI	Pseudomonas alcaligenes Sau 14-027	A. Janulaitis	T^CATGA		B	2109,3525	
+PalAI	AscI	Pseudomonas alcaligenes BS17	S.K. Degtyarev	GG^CGCGCC		I	696	
+PasI		Pseudomonas anguilliseptica RFL1	V. Butkus	CC^CWGGG		B	2111,2434	
+PauI	BsePI	Paracoccus alcaliphilus ZVK3-3	A. Janulaitis	G^CGCGC		B	2109,3531	
+PceI	StuI	Planococcus citreus 55	S.K. Degtyarev	AGG^CCT		IV	1085	
+PciI	BspLU11I	Planococcus citreus SE-F45	NEB 1781	A^CATGT		IN	25,703,913,3924,3937,3940	
+PciSI	SapI	Planococcus citreus S	S.K. Degtyarev	GCTCTTC(1/4)		I	498	
+PcsI		Paracoccus carotinifaciens 3K	S.K. Degtyarev	WCGNNNN^NNNCGW		I	503	
+PctI	BsmI	Planococcus citreus SM	S.K. Degtyarev	GAATGC(1/-1)		IV	719	
+PdiI	NaeI	Pseudomonas diminuta Mck 33-321	V. Butkus	GCC^GGC		B	3535	
+PdmI	XmnI	Pseudomonas diminuta Auk 5-324	V. Butkus	GAANN^NNTTC		B	3536	
+PfeI	TfiI	Psychrobacter faecalis RFL1	A. Janulaitis	G^AWTC		B	2111,2132	
+Pfl23II	SplI	Pseudomonas fluorescens RFL23	A. Janulaitis	C^GTACG		B	1403,1424	
+PflFI	Tth111I	Pseudomonas fluorescens biotype F	NEB 999	GACN^NNGTC		N	913,2472,3937	
+PflMI		Pseudomonas fluorescens	NEB 375	CCANNNN^NTGG		N	913,2311,2327,2495,2498	
+PfoI		Pseudomonas fluorescens biovar 126	A. Janulaitis	T^CCNGGA		B	996	
+PinAI	AgeI	Pseudomonas inequalis	M.M. Wijdenbosch	A^CCGGT		QX	1119	
+PkrI	BisI	Planomicrobium koreense 78k	S.K. Degtyarev	GCN^GC		I	502	
+PleI		Pseudomonas lemoignei	NEB 418	GAGTC(4/5)	2(6)	N	913,918,919,1699,1700,2307	
+Ple19I	PvuI	Pseudomonas lemoignei 19	S.K. Degtyarev	CGAT^CG		I	3010	
+PluTI	NarI	Photorhabdus luminescens	E. Duchaud	GGCGC^C	3(5)	N	797,913,1598,2592	
+PmaCI		Pseudomonas maltophilia CB50P	C.A. Hart	CAC^GTG		K	3578	
+PmeI		Pseudomonas mendocina	NEB 698	GTTT^AAAC		N	440,913,2310,2311,2327	
+PmlI	PmaCI	Pseudomonas maltophilia	NEB 515	CAC^GTG	3(5)	N	109,913,918,3320,3702,3939	
+PpsI	PleI	Pseudomonas pseudoalcaligenes PL	S.K. Degtyarev	GAGTC(4/5)		I	699	
+Ppu21I	BsaAI	Pseudomonas putida RFL21	A. Janulaitis	YAC^GTR		B	1421,2113,3437	
+PpuMI		Pseudomonas putida M	NEB 372	RG^GWCCY	?(5)	N	913,2299,2928	
+PscI	BspLU11I	Paracoccus species RFL1	Fermentas G291	A^CATGT		B	1854	
+PshAI		Plesiomonas shigelloides 319-73	T. Shimada	GACNN^NNGTC	2(6)	KN	439,913,2255,2327,3209	
+PshBI	VspI	Plesiomonas shigelloides TPS970	S. Matsushita	AT^TAAT		K	2249	
+PsiI		Pseudomonas species SE-G49	NEB 1784	TTA^TAA	6(6)	IN	4,942,3922,3937	
+Psp5II	PpuMI	Pseudomonas species RFL5	A. Janulaitis	RG^GWCCY		B	1396,1429	
+Psp6I	EcoRII	Pseudomonas species B6	S.K. Degtyarev	^CCWGG		I	728	
+Psp1406I	AclI	Pseudomonas pseudoalcaligenes RFL1406	A. Janulaitis	AA^CGTT		BK	1440	
+Psp124BI	SacI	Pseudomonas species 124B	S.K. Degtyarev	GAGCT^C		IV	734	
+PspCI	PmaCI	Pseudomonas species C	S.K. Degtyarev	CAC^GTG		IV	3389	
+PspEI	BstEII	Pseudomonas species E	S.K. Degtyarev	G^GTNACC		IV	723	
+PspFI	BseYI	Paenibacillus species RFL1	Fermentas G332	CCCAGC(-5/-1)		B	3508	
+PspGI	EcoRII	Pyrococcus species G1H	NEB 906	^CCWGG	?(4)	N	913,2309	
+PspLI	SplI	Pseudomonas species L	S.K. Degtyarev	C^GTACG		I	21	
+PspN4I	NlaIV	Pseudomonas species N4	S.K. Degtyarev	GGN^NCC		I	21,703	
+PspOMI	ApaI	Pseudomonas species OM2164	NEB 1783	G^GGCCC	5(4)	INV	211,913,918,3615,3702,3937	
+PspPI	AsuI	Psychrobacter immobilis TA137	R. Gerday	G^GNCC	4(5)	C	2733,2845	
+PspPPI	PpuMI	Pseudomonas species PP	S.K. Degtyarev	RG^GWCCY		I	1614	
+PspXI		Pseudomonas species A1-1	NEB 1782	VC^TCGAGB		IN	913,1077,3937	
+PsrI		Pseudomonas stutzeri N2	S.K. Degtyarev	(7/12)GAACNNNNNNTAC(12/7)		I	703,707	
+PstI		Providencia stuartii 164	ATCC 49762	CTGCA^G	5(6)	BCIJKMNOQRSVX	346,913,1179,2318,2909,3112,3386,3573,3575,3715	
+PstNI	AlwNI	Pseudomonas stutzeri 217	S.K. Degtyarev	CAGNNN^CTG		I	496	
+PsuI	XhoII	Pseudomonas stutzeri Mck 28-pH52	V. Butkus	R^GATCY		B	1864	
+PsyI	Tth111I	Pseudomonas syringae Lki 1-pH124	V. Butkus	GACN^NNGTC		B	3499	
+PteI	BsePI	Paenibacillus terrae RFL2	Fermentas G357	G^CGCGC		B	3516	
+PvuI		Proteus vulgaris	ATCC 13315	CGAT^CG		BKMNOQRSX	913,918,1045,1559,2072,3116	
+PvuII		Proteus vulgaris	ATCC 13315	CAG^CTG	4(4)	BCIJKMNOQRSVX	370,913,918,1045,1775,1812,2832,3304	
+RgaI	SgfI	Rhizobium galegae	S.K. Degtyarev	GCGAT^CGC		I	479	
+RigI	FseI	Rhizobium yangligense	S.K. Degtyarev	GGCCGG^CC		I	790	
+RruI	NruI	Rhodococcus ruber RFL5	Fermentas G359	TCG^CGA		B	3516	
+RsaI		Rhodopseudomonas sphaeroides	S. Kaplan	GT^AC	4(4)	BCIJMNQRVXY	703,913,918,2059,2072,2084,3209	
+RsaNI	RsaI	Rhodopseudomonas sphaeroides N	S.K. Degtyarev	G^TAC		I	505,703	
+RseI	MslI	Riemerella species RFL1	Fermentas G323	CAYNN^NNRTG		B	1851	
+RsrII		Rhodobacter sphaeroides strain 630	S. Kaplan	CG^GWCCG	?(5)	NQX	913,2311,2512	
+Rsr2I	RsrII	Rhodobacter sphaeroides SE-I2	S.K. Degtyarev	CG^GWCCG		IV	3069	
+SacI		Streptomyces achromogenes	ATCC 12767	GAGCT^C	4(5)	BJKMNOQRSX	131,913,918,919,3755	
+SacII		Streptomyces achromogenes	ATCC 12767	CCGC^GG	2(5)	BJKNOQRX	131,227,913,918,919,959,1145,2053,2058,2194,2327,2925	
+SalI		Streptomyces albus G	ATCC 49789	G^TCGAC	5(6)	BCIJKMNOQRVX	75,130,913,2874	
+SapI		Saccharopolyspora species	NEB 597	GCTCTTC(1/4)	2(4),-5(6)	N	203,913,2311,2925,3755,3756	
+SaqAI	MseI	Salinibacterium aquaticus RFL1	Fermentas G362	T^TAA		B	1853,3832	
+SatI	Fnu4HI	Staphylococcus arlettae RFL 832	V. Butkus	GC^NGC		B	1594	
+Sau96I	AsuI	Staphylococcus aureus PS96	ATCC 49831	G^GNCC	4(5)	JN	913,2733,3264,3280	
+Sau3AI	MboI	Staphylococcus aureus 3A	ATCC 49834	^GATC	4(5)	CJKMNRX	913,1681,1875,2271,3263	
+SbfI	Sse8387I	Streptomyces species Bf-61	S.K. Degtyarev	CCTGCA^GG		INV	913,2050,2054,2072	
+ScaI		Streptomyces caespitosus	H. Takahashi	AGT^ACT	5(4)	BCJKMNOQRX	913,1104,3209,3290,3751,3754	
+SchI	PleI	Staphylococcus cohnii Lki 19-320	V. Butkus	GAGTC(5/5)		B	2109,3534	
+ScrFI		Streptococcus cremoris F	C. Daly	CC^NGG	2(5)	JN	109,673,906,913,918,1252,3405,3702	
+SdaI	Sse8387I	Streptomyces diastaticus Ng7-324	V. Butkus	CCTGCA^GG		B	2938,3530	
+SduI		Streptococcus durans RFL3	A. Janulaitis	GDGCH^C		B	1425,1744,3432	
+SetI		Streptomyces werraensis	S.K. Degtyarev	ASST^		I	16	
+SexAI		Streptomyces exfoliatus	B. Frey	A^CCWGGT	2(5)	MN	913,922,974,1514,3703,3937	
+SfaAI	SgfI	Sphingomonas faenia RFL1	Fermentas G309	GCGAT^CGC		B	1852,3832	
+SfaNI		Streptococcus faecalis ND547	ATCC 49761	GCATC(5/9)		INV	913,992,2926,2927,2973,2995,3359	
+SfcI	SfeI	Streptococcus faecium	NEB 674	C^TRYAG		N	913,2327,2676,3922,3940	
+SfiI		Streptomyces fimbriatus	ATCC 15051	GGCCNNNN^NGGCC	?(4)	BCIJKMNOQRSVX	913,2737,2941,3442,3456,3639	
+SfoI	NarI	Serratia fonticola	NEB 369	GGC^GCC	?(5)	N	913,1767,2072,2311,2327	
+Sfr274I	XhoI	Streptomyces fradiae 274	S.K. Degtyarev	C^TCGAG		IV	2724	
+Sfr303I	SacII	Streptomyces fradiae 303	S.K. Degtyarev	CCGC^GG		IV	730	
+SfuI	AsuII	Streptomyces fulvissimus	U. Mayr	TT^CGAA		MS	3471	
+SgeI		Streptomyces griseoflavus RFL11	A. Janulaitis	CNNGNNNNNNNNN^		B	2011,2022	
+SgfI		Streptomyces griseoruber	R. Williams	GCGAT^CGC		R	1540	
+SgrAI		Streptomyces griseus	U. Mayr	CR^CCGGYG	3(5)	N	913,1702,2311,2318,3311	
+SgrBI	SacII	Streptomyces griseus	V. Bouriotis	CCGC^GG		C	2848	
+SgrDI		Streptomyces griseus RFL6	Fermentas G302	CG^TCGACG		B	2110,3513	
+SgsI	AscI	Streptomyces griseus RFL5	Fermentas G295	GG^CGCGCC		B	3544	
+SinI	AvaII	Salmonella infantis	A. de Waard	G^GWCC	4(5)	X	510,1544,2079	
+SlaI	XhoI	Streptomyces lavendulae	ATCC 8664	C^TCGAG		CY	3291	
+SmaI		Serratia marcescens Sb	ATCC 49779	CCC^GGG	2(4)	BCIJKMNOQRSVXY	371,854,913,1109,1682	
+SmiI	SwaI	Streptococcus milleri S	S.K. Degtyarev	ATTT^AAAT		BIKV	698,701	
+SmiMI	MslI	Sphingobacterium mizutae M	S.K. Degtyarev	CAYNN^NNRTG		IV	703,717	
+SmlI		Stenotrophomonas maltophilia	NEB 1007	C^TYRAG	5(6)	N	913,918,1869,3615,3937	
+SmoI	SmlI	Stenotrophomonas maltophilia RFL1	Fermentas G306	C^TYRAG		B	1848,2113	
+SnaBI		Sphaerotilus natans	ATCC 15291	TAC^GTA	3(4)	CKMNR	301,913,2072,3209	
+SpeI		Sphaerotilus natans	ATCC 13923	A^CTAGT	1(6)	BJKMNOQRSX	438,585,913,918,2327,3205	
+SphI		Streptomyces phaeochromogenes	NRRL B-3559	GCATG^C		BCIJKMNOQRVX	252,703,913,979,2053,2860	
+SrfI		Streptomyces species Srf	T.G. Simcox	GCCC^GGGC		N	913,918,3093,3617	
+Sse9I	TspEI	Sporosarcina species 9	S.K. Degtyarev	^AATT	2(6)	IV	1078,1081,1082,1086,3924	
+Sse8387I		Streptomyces species 8387	Takara 8387	CCTGCA^GG		K	1731,1732	
+SseBI	StuI	Streptomyces species B	V. Bouriotis	AGG^CCT		C	2853	
+SsiI	AciI	Staphylococcus sciuri RFL1	Fermentas G266	CCGC(-3/-1)		B	1499	
+SspI		Sphaerotilus species	ATCC 13925	AAT^ATT	?(6)	BCIJKNQRVX	229,230,2972	
+SspDI	NarI	Sphingomonas species RFL1	Fermentas G308	G^GCGCC		B	2133	
+SspMI	MaeI	Sporosarcina species M	S.K. Degtyarev	C^TAG		I	730	
+SstI	SacI	Streptomyces stanford	S. Goff	GAGCT^C		C	1059,2002,2359	
+StuI		Streptomyces tubercidicus	H. Takahashi	AGG^CCT		BJKMNQRX	404,913,2327,3061,3738,3922,3938,3940	
+StyI		Salmonella typhi 27	E.S. Anderson	C^CWWGG	?(4)	CJN	228,913,2240,2327	
+StyD4I	ScrFI	Salmonella typhi D4	E.S. Anderson	^CCNGG	?(5)	N	913,2248,2252	
+SwaI		Staphylococcus warneri	B. Frey	ATTT^AAAT	?(6)	JMNS	1250,1878	
+TaaI	Tsp4CI	Thermus aquaticus Vn 4-311	V. Butkus	ACN^GT		B	3549	
+TaiI	MaeII	Thermus aquaticus cs1-331	V. Butkus	ACGT^		B	3501	
+TaqI		Thermus aquaticus YTI	J.I. Harris	T^CGA	4(6)	BCIJKMNQRSVX	102,104,913,954,2169,2949,3845,3950	
+TaqII		Thermus aquaticus YTI	J.I. Harris	GACCGA(11/9)	6(6)	QX	102,111,184,3953,3954	
+TasI	TspEI	Thermus aquaticus Vn 4-211	V. Butkus	^AATT		B	3553	
+TatI		Thermus aquaticus CBA1-331	V. Butkus	W^GTACW		B	3527	
+TauI		Thermus aquaticus Ma2 3-1	A. Janulaitis	GCSG^C		B	3527	
+TfiI		Thermus filiformis	NEB 570	G^AWTC	2(6)	N	638,913,1245,3209	
+Tru1I	MseI	Thermus ruber RFL1	A. Janulaitis	T^TAA		B	1419	
+Tru9I	MseI	Thermus ruber 9	S.K. Degtyarev	T^TAA		IMRV	2707	
+TscAI	TspRI	Thermus scotoductus RFL5	Fermentas G321	CASTGNN^		B	1846	
+TseI		Thermus species 93170	D. Clark	G^CWGC	2(4)	N	913,918,2311,2327,3308,3739	
+TseFI	Tsp45I	Thermus species F35	S.K. Degtyarev	^GTSAC		I	1083	
+Tsp45I		Thermus species strain YS45	R.J. Sharp	^GTSAC	4(6)	N	913,2773,3209,3613	
+TspDTI		Thermus species DT	P.M. Skowron	ATGAA(11/9)		QX	3103,3106	
+TspGWI		Thermus species GW	EURx 202	ACGGA(11/9)	?(6)	QX	3948,3949	
+TspMI	SmaI	Thermophilic strain M	P. Sharma	C^CCGGG	?(5)	N	913,2311,2567,3034,3897,3902,3903	
+TspRI		Thermus species strain R	N.D.H. Raven	CASTGNN^	1(5)	N	226,913,2772,3739,3740	
+Tth111I		Thermus thermophilus strain 111	T. Oshima	GACN^NNGTC	2(6)	IKNQVX	913,2327,3072,3209,3739	
+Van91I	PflMI	Vibrio anguillarum RFL91	A. Janulaitis	CCANNNN^NTGG		BK	1429	
+Vha464I	AflII	Vibrio harveyi 464	S.K. Degtyarev	C^TTAAG		V	1693,2808	
+VneI	ApaLI	Vibrio nereis 18	S.K. Degtyarev	G^TGCAC		IV	703,746	
+VpaK11BI	AvaII	Vibrio parahaemolyticus 1743-1	S. Matsushita	G^GWCC		K	3411	
+VspI		Vibrio species 343	S.K. Degtyarev	AT^TAAT	5(6)	BIRV	743,744,751	
+XagI	EcoNI	Xanthobacter agilis Vs 18-132	A. Janulaitis	CCTNN^NNNAGG		B	2109,3543	
+XapI	ApoI	Xanthomonas ampelina Slo51-021	V. Butkus	R^AATTY		B	3506	
+XbaI		Xanthomonas badrii	ATCC 11672	T^CTAGA	6(6)	BCIJKMNQRSVX	913,918,2586,3702,3831	
+XceI	NspI	Xanthomonas campestris Ast 40-024	V. Butkus	RCATG^Y		B	2608	
+XcmI		Xanthomonas campestris	NEB 497	CCANNNNN^NNNNTGG	3(6)	N	913,2327,2495,2499,2677,3041,3209	
+XhoI		Xanthomonas holcicola	ATCC 13461	C^TCGAG	5(6)	BJKMNOQRX	103,913,918,1047,2336,3209	
+XmaI	SmaI	Xanthomonas malvacearum	ATCC 9924	C^CCGGG	2(4)	INRV	854,913,918,2066,2069	
+XmaJI	AvrII	Xanthomonas maltophilia Jo 85-025	V. Butkus	C^CTAGG		B	1574	
+XmiI	AccI	Xanthomonas maltophilia Jo21-021	V. Butkus	GT^MKAC		B	1500	
+XmnI		Xanthomonas manihotis 7AS1	ATCC 49764	GAANN^NNTTC	2(6)	NR	913,918,941,1958,2497,2736,3937	
+XspI	MaeI	Xanthomonas species YK1	Y.M. Kim	C^TAG		K	3161	
+ZraI	AatII	Zoogloea ramigera 11	NEB 1785	GAC^GTC		INV	727,913,3616,3937	
+ZrmI	ScaI	Zoogloea ramigera SCA	S.K. Degtyarev	AGT^ACT		I	2398	
+Zsp2I	AvaIII	Zoogloea species 2	S.K. Degtyarev	ATGCA^T		IV	703,730	`;
