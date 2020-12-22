@@ -10,7 +10,7 @@
    
    
 
-<script var="" database;="" src="allenz.commercial.txt"></script>
+<script var="" database;="" src="gcg.txt"></script>
 <script>var enzymeentry = database.split('\n');</script>
 
 <script type="text/javascript" src="digester.js"></script></head><body>
@@ -39,8 +39,8 @@
 
 
 <noscript>
-  <div class="h1" >
-  Sorry, your browser does not support JavaScript!, For functionality please activate JavaScript
+  <div class="h1" style="color:red">
+  This site requires JavaScript, please enable it!
 </div>
 
 </noscript>
@@ -52,7 +52,7 @@ Molecular cloning is a basic and
  very useful method in molecular biology. Cloning allows combining DNA 
 fragments from different sources into one DNA molecule like a plasmid. 
 Plasmids can be easily amplified in E. coli. Plasmids can also be used 
-to express proteins in bacteria, in eucariotic cells. Furthermore, 
+to express proteins in bacteria and eucariotic cells. Furthermore, 
 plasmids may be used for instance as p-element vectors for generating 
 transgene fruit flies.<Br>
 
@@ -62,19 +62,19 @@ adding multiple functional elements into a plasmid. For instance a
 p-element vector does not only have a plasmid backbone and the gene of 
 interest, but also for tissue specific expression a promoter and a 3’UTR
  with a polyadenylation signal, and a p-element for random genomic 
-integration. Such a plasmid may have in the order of 10 000 base pairs.<Br>
+integration. Such a plasmid may have some 10 000 base pairs.<Br>
 
 Successful cloning requires an appropriate cloning strategy, which is in mathematical terms a 
-combinatorial problem. A typical application of this is the design of a 
+combinatorial problem. A typical application is designing a 
 preselection digest to reduce the background in the ligation reaction. <Br>
 
 Here we provide a free online tool to find fitting enzymes for designing your preselection digests. 
-Simply give the sequences of the constructs you want to compare and we
+Simply give the sequences of the constructs you want to compare, and we
  will provide you with a list of all enzymes you can use for your preselection.
 
  <div class="h2">Data security:</div>
- No seqeunce data will be uploaded, everything is done in your local browser with JavaScript. 
-    
+ No sequence data will be uploaded, everything is done in your local browser with JavaScript. 
+
         </div>
        
     
@@ -99,8 +99,8 @@ Simply give the sequences of the constructs you want to compare and we
           
           <figure >
             <img src="preselector_beschriftet6.png" alt="Flow Chart" style="width: 70%">
-            <figcaption>Figure 1: Preselection digests give the opportunity to sort out those vectors not wanted for transformation. The vectors are treated with an enzyme that 
-              cuts the Recipient Vector but not the Final Vector. The Recipeint vector becomes linearized and is unsuitable for transformation</figcaption>
+            <figcaption>Figure 1: Preselection digests give the opportunity to remove the vectors not wanted for transformation. The vectors are treated with an enzyme that 
+              cuts the Recipient Vector but not the Final Vector. The Recipeint vector is linearized and is unsuitable for transformation</figcaption>
           </figure> 
           
           
@@ -111,9 +111,9 @@ Simply give the sequences of the constructs you want to compare and we
 <br>
 
 You have to provide your two sequences in plain text. You can copy and paste the sequences into our web form.
-In the case of a preselection digest e.g. the sequence of the Recipient Vector and optionally the donor insert and the sequence of the Final Vector.
+In the case of a preselection digest e.g. the sequence of the Recipient Vector, optionally the donor insert, and the sequence of the Final Vector.
 
-Example plain text of a DNA sequence in 5-3 direction:
+An example of a plain text DNA sequence in 5-3 direction:
 AGCTAGTCGATGCTATATTTAGCGATGCTAGTCGACTAGCTAAGGCTAGTGATCGAGCTGATCTATCGGATCTAGCGATCGATCGACTAC
  <div class="h1">What do you get?</div> 
 
@@ -127,8 +127,8 @@ AGCTAGTCGATGCTATATTTAGCGATGCTAGTCGACTAGCTAAGGCTAGTGATCGAGCTGATCTATCGGATCTAGCGATC
 <div class="h1">How does it work?</div>
 
 
-The sequences provided by the user are processed by a JavaScript programm. No sequence is uploaded to the server. All sequences remain in the browser.
-The JavaScript program uses regular expression to search for the recognition sequences from restriction enzymes from the rebase database.
+The sequences you provide are processed by a JavaScript program. No sequence is uploaded to the server. All sequences remain in the browser.
+The JavaScript program uses regular expressions to search for the recognition sequences of restriction enzymes from the Rebase database.
 <div class="h1">Disclaimer:</div>
 
 For research use only. Not for diagnostic or therapeutic applications.

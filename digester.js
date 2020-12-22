@@ -10,15 +10,16 @@ var regexrv = [];
 
 for (i = 0; i < enzymeentry.length; i++) {
 	enzymearray.push(enzymeentry[i].split('\t'));
-	recognition.push(enzymearray[i][4]);
-	cleanedrecog.push(clean(enzymearray[i][4]));
+	recognition.push(enzymearray[i][1]);
+	cleanedrecog.push(clean(enzymearray[i][1]));
 	reversecompl.push(revcompl(cleanedrecog[i]));
 	regexfw.push(makeregex(reversecompl[i]));
 	regexrv.push(makeregex(cleanedrecog[i]));
 }
 
 function clean(p1) {
-	p2=p1.replace(/\^|\(|\)|[0-9]|\/|-/gm,'');
+	p2=p1.replace(/\^|\(|\)|[0-9]|\/|-|_|\'/gm,'');
+	p2=p2.replace(/[a-z]+/g, (c) => c.toUpperCase());
 	return p2;
 }
 
@@ -174,7 +175,7 @@ function getSequence(seqID){
 	}
 
 	if(document.getElementById("circular" + seqID).checked == true){
-		seq=seq+seq.substr(0, 15) //find matches also for the circular case
+		seq=seq+seq.substr(0, 30) //find matches also for the circular case
 	}
 
 	document.getElementById("commenton").innerHTML = commenttext;
