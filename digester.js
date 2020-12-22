@@ -175,7 +175,7 @@ function getSequence(seqID){
 	}
 
 	if(document.getElementById("circular" + seqID).checked == true){
-		seq=seq+seq.substr(0, 15) //find matches also for the circular case
+		seq=seq+seq.substr(0, 30) //find matches also for the circular case
 	}
 
 	document.getElementById("commenton").innerHTML = commenttext;
