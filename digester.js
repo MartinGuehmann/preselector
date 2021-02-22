@@ -66,6 +66,8 @@ N 	any base
 . or - 	gap
 */
 
+//
+
 function revcompl(p1) {
 	p2=reverse(p1)
 	p3=p2.replace(/[A-Z]+/, (c) => c.toLowerCase());
