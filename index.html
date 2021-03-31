@@ -166,33 +166,45 @@
 
 	<div id="digester" class="w3-container  tab" style="display: none;">
 
-		<div class="h1">Digester for Preselection</div>
+		<div class="h1">Digester for Preselection</div><br>
 
 		<div>DNA Sequence 1 (e.g. DNA Sequence of Recipient plasmid):
-			circular: <input id="circular1" checked="checked" type="checkbox">
-			<button class="button button2" onclick="setseq('seq1',sampleseq1)">Load example</button>
-			<button id="clear1" class="button button3" onclick="clearseq('seq1')">Clear</button>
-		</div>
-		<textarea id="seq1" name="sequence 1" rows="4" cols="90"></textarea>
+			<div>
+				<textarea id="seq1" name="sequence 1" rows="4" cols="90"></textarea>
+			</div>
+			<div>
+				<button class="button button2" onclick="setseq('seq1',sampleseq1)">Load example</button>
+				<button id="clear1" class="button button3" onclick="clearseq('seq1')">Clear</button>
+				circular: <input id="circular1" checked="checked" type="checkbox">
+			</div>
+		</div><br>
 
 		<div>DNA Sequence 2 (e.g. Donor), you may leave this empty:
-			circular: <input id="circular2" checked="checked" type="checkbox">
-			<button class="button button2" onclick="setseq('seq2',sampleseq2)">Load example</button>
-			<button id="clear2" class="button button3" onclick="clearseq('seq2')">Clear</button> 
-		</div>
-		<textarea id="seq2" name="Sequence 2" rows="4" cols="90"></textarea>
+			<div>
+				<textarea id="seq2" name="Sequence 2" rows="4" cols="90"></textarea>
+			</div>
+			<div>
+				<button class="button button2" onclick="setseq('seq2',sampleseq2)">Load example</button>
+				<button id="clear2" class="button button3" onclick="clearseq('seq2')">Clear</button>
+				circular: <input id="circular2" checked="checked" type="checkbox">
+			</div>
+		</div><br>
 
 		<div>DNA Sequence 3 (e.g. final Plasmid for preselection):
-			circular: <input id="circular3" checked="checked" type="checkbox">
-			<button class="button button2" onclick="setseq('seq3',sampleseq3)">Load example</button>
-			<button id="clear3" class="button button3" onclick="clearseq('seq3')">Clear</button>
-		</div>
-		<textarea id="seq3" name="Sequence 3" rows="4" cols="90"></textarea>
+			<div>
+				<textarea id="seq3" name="Sequence 3" rows="4" cols="90"></textarea>
+			</div>
+			<div>
+				<button class="button button2" onclick="setseq('seq3',sampleseq3)">Load example</button>
+				<button id="clear3" class="button button3" onclick="clearseq('seq3')">Clear</button>
+				circular: <input id="circular3" checked="checked" type="checkbox">
+			</div>
+		</div><br>
 
 		<div>
 			<button class="button button1" onclick="myFunction()">Submit and Digest</button>
 			<button id="clearAll" class="button button3" onclick="clearresults()">Clear Results</button>
-		</div> 
+		</div><br>
 
 		<div class='label' id='commenton'>Info: </div>
 
