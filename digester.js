@@ -122,12 +122,12 @@ function setseq(id,seq){
 }
 
 function clearresults(){
-	document.getElementById("cutinseq1").innerHTML ='.';
+	document.getElementById("cutinseq1").innerHTML ='';
 	document.getElementById("cutinseq2").innerHTML = '';
 	document.getElementById("cutinseq3").innerHTML = '';
 	document.getElementById("cutinseq1notin3").innerHTML = '';
 	document.getElementById("cutinseq2notin3").innerHTML = '';
-	document.getElementById("nocutinseq1").innerHTML ='.';
+	document.getElementById("nocutinseq1").innerHTML ='';
 	document.getElementById("nocutinseq2").innerHTML = '';
 	document.getElementById("nocutinseq3").innerHTML = '';
 }
