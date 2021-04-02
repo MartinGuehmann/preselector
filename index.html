@@ -1,329 +1,307 @@
 <!DOCTYPE html>
-<html>
-  <head><!-- Copyright by Ralf Mrowka (C)2020,  all rights reserved -->
+<html lang="en">
 
-  <meta charset="utf-8">
+<head><!-- Copyright by Ralf Mrowka (C)2020,  all rights reserved -->
+	<meta charset="utf-8">
 
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Expires" content="0">
 
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">
-  
-  
+	<title>Preselector</title>
+	<link rel="stylesheet" href="stylesheet.css" type="text/css" media="screen">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
 
+	<script var="" database;="" src="gcg.txt"></script>
+	<script>var enzymeentry = database.split('\n');</script>
+	<script type="text/javascript" src="digester.js"></script>
+</head>
 
-  <title>Preselector</title>
-   <link rel="stylesheet" href="stylesheet.css" type="text/css" media="screen">
-   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-   <link rel="icon" href="favicon.ico" type="image/x-icon">
-   
-   
+<body>
+	<div class="w3-bar w3-black">
+		<button class="w3-bar-item w3-button tablink w3-blue" onclick="pressed(event,'home')">Home</button>
+		<button class="w3-bar-item w3-button tablink" onclick="pressed(event,'documentation')">Why Preselection?</button>
+		<button class="w3-bar-item w3-button tablink" onclick="pressed(event,'literature')">Literature</button>
+		<button class="w3-bar-item w3-button tablink" onclick="pressed(event,'digester')">Find your Preselection</button>
+		<button class="w3-bar-item w3-button tablink" onclick="pressed(event,'about')">About</button>
+	</div>
 
-<script var="" database;="" src="gcg.txt"></script>
-<script>var enzymeentry = database.split('\n');</script>
+	<div id="home" class="w3-container  tab">
 
-<script type="text/javascript" src="digester.js"></script></head><body>
+		<figure style="float: right">
+			<img src="gel-spiegel.jpg" alt="gel image" style="width: 300px">
+			<figcaption>Image of an DNA agarose gel</figcaption>
+		</figure> 
 
+		<noscript>
+			<div class="h1" style="color:red">
+				This site requires JavaScript, please enable it!
+			</div>
+		</noscript>
 
+		<div class="h1">Welcome to this site</div>
+		Molecular cloning is a basic and
+		very useful method in molecular biology. Cloning allows combining DNA 
+		fragments from different sources into one DNA molecule like a plasmid. 
+		Plasmids can be easily amplified in E. coli. Plasmids can also be used 
+		to express proteins in bacteria and eucariotic cells. Furthermore, 
+		plasmids may be used for instance as p-element vectors for generating 
+		transgene fruit flies.<Br>
 
-  
-  <div class="w3-bar w3-black">
-    
- 
- <button class="w3-bar-item w3-button tablink w3-blue" onclick="pressed(event,'home')">Home</button>
-  <button class="w3-bar-item w3-button tablink" onclick="pressed(event,'documentation')">Why Preselection?</button>
-  <button class="w3-bar-item w3-button tablink" onclick="pressed(event,'literature')">Literature</button>
-  <button class="w3-bar-item w3-button tablink" onclick="pressed(event,'digester')">Find your Preselection</button>
-  <button class="w3-bar-item w3-button tablink" onclick="pressed(event,'about')">About</button>
-  </div>
-  
-  <div id="home" class="w3-container  tab">
+		One application for molecular 
+		cloning is to replace a gene in a plasmid by another gene. Another is 
+		adding multiple functional elements into a plasmid. For instance a 
+		p-element vector does not only have a plasmid backbone and the gene of 
+		interest, but also for tissue specific expression a promoter and a 3’UTR
+		with a polyadenylation signal, and a p-element for random genomic 
+		integration. Such a plasmid may have some 10 000 base pairs.<Br>
 
-  
-<figure style="float: right">
-  <img src="gel-spiegel.jpg" alt="gel image" style="width: 300px">
-  <figcaption>Image of an DNA agarose gel</figcaption>
-</figure> 
+		Successful cloning requires an appropriate cloning strategy, which is in mathematical terms a 
+		combinatorial problem. A typical application is designing a 
+		preselection digest to reduce the background in the ligation reaction. <Br>
 
+		Here we provide a free online tool to find fitting enzymes for designing your preselection digests. 
+		Simply give the sequences of the constructs you want to compare, and we
+		will provide you with a list of all enzymes you can use for your preselection.
 
+		<div class="h2">Data security:</div>
+			No sequence data will be uploaded, everything is done in your local browser with JavaScript. 
+		</div>
 
-<noscript>
-  <div class="h1" style="color:red">
-  This site requires JavaScript, please enable it!
-</div>
+		<div id="documentation" class="w3-container  tab" style="display: none;">
 
-</noscript>
+		<div class="h1"> Introduction</div>
 
+		In molecular cloning, restriction enzymes are used to cut out a fragment of DNA from a Donor Vector to
+		ligate it then into a previously opened Recipient Vector. The DNA fragments are separated on an agarose gel.
+		However, restriction enzymes may digest incompletely, leaving not only backbone and insert, but also linearized DNA molecules in the reaction.
+		A linearized plasmid of 10000 bp can be easily separated from a 1000 bp cutout fragment but is difficult to separate from a 9000 bp 
+		backbone fragment. Therefore, even after gel isolation linearized fragments may be left, and used in the ligation. 
+		A single fragment is more likely to be ligated with itself, than two are ligated together. This leads to a high background.
 
+		The background can be substantially reduced by a preselection digest. Here another enzyme is used that does not cut the Final Vector after 
+		ligation, but cuts the Recipient Vector. This preselection enzyme cuts after ligation all original Recipient Vectors that have been religated. 
+		The challenge here is finding a preselection enzyme, which is in mathematical terms a combinatorial problem. An easy way to find such enzymes is 
+		provided by preselector.uni-jena.de.
 
-<div class="h1">Welcome to this site</div>
-Molecular cloning is a basic and
- very useful method in molecular biology. Cloning allows combining DNA 
-fragments from different sources into one DNA molecule like a plasmid. 
-Plasmids can be easily amplified in E. coli. Plasmids can also be used 
-to express proteins in bacteria and eucariotic cells. Furthermore, 
-plasmids may be used for instance as p-element vectors for generating 
-transgene fruit flies.<Br>
+		<figure >
+			<img src="preselector_beschriftet6.png" alt="Flow Chart" style="width: 70%">
+				<figcaption>Figure 1: Preselection digests give the opportunity to remove the vectors not wanted for transformation. The vectors are treated with an enzyme that 
+				cuts the Recipient Vector but not the Final Vector. The Recipeint vector is linearized and is unsuitable for transformation</figcaption>
+		</figure>
 
-One application for molecular 
-cloning is to replace a gene in a plasmid by another gene. Another is 
-adding multiple functional elements into a plasmid. For instance a 
-p-element vector does not only have a plasmid backbone and the gene of 
-interest, but also for tissue specific expression a promoter and a 3’UTR
- with a polyadenylation signal, and a p-element for random genomic 
-integration. Such a plasmid may have some 10 000 base pairs.<Br>
+		<br>
 
-Successful cloning requires an appropriate cloning strategy, which is in mathematical terms a 
-combinatorial problem. A typical application is designing a 
-preselection digest to reduce the background in the ligation reaction. <Br>
+		You have to provide your two sequences in plain text. You can copy and paste the sequences into our web form.
+		In the case of a preselection digest e.g. the sequence of the Recipient Vector, optionally the donor insert, and the sequence of the Final Vector.
 
-Here we provide a free online tool to find fitting enzymes for designing your preselection digests. 
-Simply give the sequences of the constructs you want to compare, and we
- will provide you with a list of all enzymes you can use for your preselection.
+		An example of a plain text DNA sequence in 5-3 direction:
+		AGCTAGTCGATGCTATATTTAGCGATGCTAGTCGACTAGCTAAGGCTAGTGATCGAGCTGATCTATCGGATCTAGCGATCGATCGACTAC
 
- <div class="h2">Data security:</div>
- No sequence data will be uploaded, everything is done in your local browser with JavaScript. 
+		<div class="h1">What do you get?</div>
 
-        </div>
-       
-    
-        <div id="documentation" class="w3-container  tab" style="display: none;">
-    
-          <div class="h1"> Introduction</div>
-         
+		You enter two or three DNA sequences, indicate whether they are linear or circular.
+		And you get for each sequence, a list of cutting and another list of all non-cutting enzymes. 
+		It also displays the enzymes that cut the first but not the third sequence, and the enzymes that 
+		cut the second but not the third sequence. This way you can select your enzymes for your  
+		preselection, i.e. enzymes that cut in the recipient but not in the final plasmid. In addition you get 
+		a list of all non-cutting enzymes for each sequence. 
 
-          In molecular cloning, restriction enzymes are used to cut out a fragment of DNA from a Donor Vector to
-          ligate it then into a previously opened Recipient Vector. The DNA fragments are separated on an agarose gel.
-          However, restriction enzymes may digest incompletely, leaving not only backbone and insert, but also linearized DNA molecules in the reaction.
-           A linearized plasmid of 10000 bp can be easily separated from a 1000 bp cutout fragment but is difficult to separate from a 9000 bp 
-           backbone fragment. Therefore, even after gel isolation linearized fragments may be left, and used in the ligation. 
-           
-           A single fragment is more likely to be ligated with itself, than two are ligated together. This leads to a high background.
-          
-          The background can be substantially reduced by a preselection digest. Here another enzyme is used that does not cut the Final Vector after 
-          ligation, but cuts the Recipient Vector.  This preselection enzyme cuts after ligation all original Recipient Vectors that have been religated. 
-          The challenge here is finding a preselection enzyme, which is in mathematical terms a combinatorial problem. An easy way to find such enzymes is 
-          provided by preselector.uni-jena.de.
+		<div class="h1">How does it work?</div>
 
-          
-          <figure >
-            <img src="preselector_beschriftet6.png" alt="Flow Chart" style="width: 70%">
-            <figcaption>Figure 1: Preselection digests give the opportunity to remove the vectors not wanted for transformation. The vectors are treated with an enzyme that 
-              cuts the Recipient Vector but not the Final Vector. The Recipeint vector is linearized and is unsuitable for transformation</figcaption>
-          </figure> 
-          
-          
+		The sequences you provide are processed by a JavaScript program. No sequence is uploaded to the server. All sequences remain in the browser.
+		The JavaScript program uses regular expressions to search for the recognition sequences of restriction enzymes from the Rebase database.
 
-          
+		<div class="h1">Disclaimer:</div>
 
+		For research use only. Not for diagnostic or therapeutic applications.
+	</div>
+	
+	<div id="literature" class="w3-container tab" style="display: none;">
+		<div class="h1">Literature</div>
 
-<br>
+		<div class="h2">About restriction enzymes and their application:</div>
 
-You have to provide your two sequences in plain text. You can copy and paste the sequences into our web form.
-In the case of a preselection digest e.g. the sequence of the Recipient Vector, optionally the donor insert, and the sequence of the Final Vector.
+		<ul>
+			<li> Nathans D, Smith HO. Restriction endonucleases in the analysis and restructuring of dna molecules. Annu Rev Biochem. 1975;44:273-93.</li>
+			<li>Roberts RJ, Vincze T, Posfai J, Macelis D. REBASE--a database for DNA restriction and modification: enzymes, genes and genomes. Nucleic Acids Res.
+			2010 Jan;38(Database issue):D234-6. doi: 10.1093/nar/gkp874. Epub 2009 Oct 21. This is also the source of the enzyme information in this site</li>
+		</ul>
+		<div class="h2">About design of plasmid vectors in general:</div>
+		<ul>
+			<li>Tolmachov O. Designing plasmid vectors. Methods Mol Biol. 2009;542:117-29.</li>
+		</ul>
 
-An example of a plain text DNA sequence in 5-3 direction:
-AGCTAGTCGATGCTATATTTAGCGATGCTAGTCGACTAGCTAAGGCTAGTGATCGAGCTGATCTATCGGATCTAGCGATCGATCGACTAC
- <div class="h1">What do you get?</div> 
+		<div class="h2">About p-vector cloning:</div>
+		<ul>
+			<li>Townson et al. Honeybee blue-and ultraviolet-sensitive opsins: Cloning, heterologous expression in Drosophila, 
+			and physiological characterization. J Neurosci (1998) vol. 18 (7) pp. 2412-2422 </li>
+			<li>Knox et al. Heterologous expression of Limulus rhodopsin. Journal of Biological Chemistry (2003) vol. 278 (42) pp. 40493-40502</li>
+		</ul>
+	</div>
 
- You enter two or three DNA sequences, indicate whether they are linear or circular.
- And you get for each sequence, a list of cutting and another list of all non-cutting enzymes. 
- It also displays the enzymes that cut the first but not the third sequence, and the enzymes that 
- cut the second but not the third sequence. This way you can select your enzymes for your  
- preselection, i.e. enzymes that cut in the recipient but not in the final plasmid. In addition you get 
- a list of all non-cutting enzymes for each sequence. 
+	<div id="about" class="w3-container tab" style="display: none;">
 
-<div class="h1">How does it work?</div>
+		<div class="h2">This work has been delveloped in the Mrowka Lab</div>
 
+		Contact:<BR>
+		Prof. Dr. Ralf Mrowka<BR>  
+		Experimental Nephrology<BR>
 
-The sequences you provide are processed by a JavaScript program. No sequence is uploaded to the server. All sequences remain in the browser.
-The JavaScript program uses regular expressions to search for the recognition sequences of restriction enzymes from the Rebase database.
-<div class="h1">Disclaimer:</div>
+		<a href="https://www.uniklinikum-jena.de">Universitätsklinikum Jena</a>
+		, KIM III<BR>
+		Am Nonnenplan 4<BR>
+		07743 JENA<BR>
+		Germany<BR>
 
-For research use only. Not for diagnostic or therapeutic applications.
+		Tel.: +49 3641 9396600 (Office)<BR>
+		FAX:  +49 3641 9396602
+		<BR>
+		<BR>
+		<div class="h2">
+			<a href="https://www.uniklinikum-jena.de/Impressum.html">Imprint</a>
+		</div>
+	</div>
 
+	<div id="digester" class="w3-container  tab" style="display: none;">
 
+		<div class="h1">Digester for Preselection</div><br>
 
-        </div>
-    
-        <div id="literature" class="w3-container tab" style="display: none;">
-    
-          <div class="h1">Literature</div>
-          
-          <div class="h2">About restriction enzymes and their application:</div>
-          
-          <ul>
-            <li> Nathans D, Smith HO. Restriction endonucleases in the analysis and restructuring of dna molecules. Annu Rev Biochem. 1975;44:273-93.</li>
-            <li>Roberts RJ, Vincze T, Posfai J, Macelis D. REBASE--a database for DNA restriction and modification: enzymes, genes and genomes. Nucleic Acids Res.
-              2010 Jan;38(Database issue):D234-6. doi: 10.1093/nar/gkp874. Epub 2009 Oct 21. This is also the source of the enzyme information in this site</li>
-           
-          </ul> 
-          
-          
-          
-          
-          <div class="h2">About design of plasmid vectors in general:</div>
-          
-          
-          <ul>
-            <li>Tolmachov O. Designing plasmid vectors. Methods Mol Biol. 2009;542:117-29.</li>
-            
-          </ul> 
-          
-          
-           
-          <div class="h2">About p-vector cloning:</div>
-         
-          <ul>
-            <li>Townson et al. Honeybee blue-and ultraviolet-sensitive opsins: Cloning, heterologous expression in Drosophila, 
-              and physiological characterization. J Neurosci (1998) vol. 18 (7) pp. 2412-2422 </li>
-            <li>Knox et al. Heterologous expression of Limulus rhodopsin. Journal of Biological Chemistry (2003) vol. 278 (42) pp. 40493-40502</li>
-            
-          </ul> 
-          
-          
-      
+		<div>DNA Sequence 1 (e.g. DNA Sequence of Recipient plasmid):
+			<div>
+				<textarea id="seq1" name="sequence 1" rows="4" cols="90"></textarea>
+			</div>
+			<div>
+				<button class="button button2" onclick="setseq('seq1',sampleseq1)">Load example</button>
+				<button id="clear1" class="button button3" onclick="clearseq('seq1')">Clear</button>
+				circular: <input id="circular1" checked="checked" type="checkbox">
+			</div>
+		</div><br>
 
+		<div>DNA Sequence 2 (e.g. Donor), you may leave this empty:
+			<div>
+				<textarea id="seq2" name="Sequence 2" rows="4" cols="90"></textarea>
+			</div>
+			<div>
+				<button class="button button2" onclick="setseq('seq2',sampleseq2)">Load example</button>
+				<button id="clear2" class="button button3" onclick="clearseq('seq2')">Clear</button>
+				circular: <input id="circular2" checked="checked" type="checkbox">
+			</div>
+		</div><br>
 
+		<div>DNA Sequence 3 (e.g. final Plasmid for preselection):
+			<div>
+				<textarea id="seq3" name="Sequence 3" rows="4" cols="90"></textarea>
+			</div>
+			<div>
+				<button class="button button2" onclick="setseq('seq3',sampleseq3)">Load example</button>
+				<button id="clear3" class="button button3" onclick="clearseq('seq3')">Clear</button>
+				circular: <input id="circular3" checked="checked" type="checkbox">
+			</div>
+		</div><br>
 
-    
-        </div>
+		<table style="text-align: left; border:none;" cellpadding="2" cellspacing="2">
+			<tbody>
+				<tr>
+					<td style="vertical-align: top; border:none;">
+						<label for="EnzymesToUse">Enzymes to use:</label>
+					</td>
+					<td style="horizontal-align: top; border:none;">
+					</td>
+					<td style="vertical-align: top; border:none;">
+						<label for="EnzymesToExclude">Enzymes to exclude:</label>
+					</td>
+				<tr/>
+				<tr>
+					<td style="vertical-align: top; border:none;">
+						<div>
+							<select id="EnzymesToUse" name="EnzymesToUse" style="width:180px; height:120px" size="6" multiple>
+							</select>
+						</div>
+					</td>
+					<td style="horizontal-align: top; border:none;">
+						<div><button id="addEnzymes" class="button button2" onclick="addEnzymes()"><-</button></div>
+						<div><button id="removeEnymes" class="button button3" onclick="removeEnzymes()">-></button></div>
+					</td>
+					<td style="vertical-align: top; border:none;">
+						<div>
+							<select id="EnzymesToExclude" name="EnzymesToExclude" style="width:180px; height:120px" size="6" multiple>
+							</select>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td style="vertical-align: top; border:none;">
+						<div><button id="useAllEnzymes" class="button button2" onclick="useAllEnzymes()">Use all enzymes</button></div>
+					</td>
+					<td style="horizontal-align: top; border:none;">
+					</td>
+					<td style="vertical-align: top; border:none;">
+						<div><button id="removeAllEnymes" class="button button3" onclick="removeAllEnzymes()">Remove all enzymes</button></div>
+					</td>
+				<tr/>
+			</tbody>
+		</table><br>
 
-<div id="about" class="w3-container tab" style="display: none;">
+		<div>
+			<button class="button button1" onclick="myFunction()">Submit and Digest</button>
+			<button id="clearAll" class="button button3" onclick="clearresults()">Clear Results</button>
+		</div><br>
 
-  <div class="h2">This work has been delveloped in the Mrowka Lab</div>
+		<div class='label' id='commenton'>Info: </div>
 
-  Contact:<BR>
-  Prof. Dr. Ralf Mrowka<BR>  
-  Experimental Nephrology<BR>
-  
-<a href="https://www.uniklinikum-jena.de">Universitätsklinikum Jena</a>
-       , KIM III<BR>
-  Am Nonnenplan 4<BR>
-  07743 JENA<BR>
-  Germany<BR>
-  
-  Tel.: +49 3641 9396600 (Office)<BR>
-  FAX:  +49 3641 9396602
-  <BR>
-<BR>
-    <div class="h2">
-         <a href="https://www.uniklinikum-jena.de/Impressum.html">Imprint</a>
-    </div>
-   
+		<div class="h1">
+			<b>Results a) </b> cutting enzymes in one sequence but not in another (recognition sequence, number of matches on +/- strand)<br>
+		</div>
+		<table style="text-align: left; width: 95%;" cellpadding="2" cellspacing="2">
+			<tbody>
+				<tr>
+					<td style="vertical-align: top;"><div class="small">cut in Sequence 1 but not in Sequence 3:</div><br></td>
+					<td style="vertical-align: top;"><div class="small">cut in Sequence 2 but not in Sequence 3:</div><br></td>
+				</tr>
+				<tr>
+					<td style="vertical-align: top;"><div class="small" id="cutinseq1notin3"></div><br></td>
+					<td style="vertical-align: top;"><div class="small" id="cutinseq2notin3"></div><br></td>
+				</tr>
+			</tbody>
+		</table>
 
-</div>
+		<div class="h1">
+			<b>Results b) </b> cutting enzymes in one sequence (recognition sequence, number of matches on +/- strand)<br>
+		</div>
+		<table style="text-align: left; width: 95%;" cellpadding="2" cellspacing="2">
+			<tbody>
+				<tr>
+					<td style="vertical-align: top;"><div class="small">cut in Sequence 1:</div><br></td>
+					<td style="vertical-align: top;"><div class="small">cut in Sequence 2:</div><br></td>
+					<td style="vertical-align: top;"><div class="small">cut in Seqeunce 3:</div><br></td>
+				</tr>
+				<tr>
+					<td style="vertical-align: top;"><div class="small" id="cutinseq1"></div><br></td>
+					<td style="vertical-align: top;"><div class="small" id="cutinseq2"></div><br></td>
+					<td style="vertical-align: top;"><div class="small" id="cutinseq3"></div><br></td>
+				</tr>
+			</tbody>
+		</table>
 
-
-
-<div id="digester" class="w3-container  tab" style="display: none;">
-
-<div class="h1">Digester for Preselection</div>
-
-
-<div>DNA Sequence 1 (e.g. DNA Sequence of Recipient plasmid):
-      circular: <input id="circular1" checked="checked" type="checkbox">
-        <button class="button button2" onclick="setseq('seq1',sampleseq1)">Load example</button>
-        <button id="clear1" class="button button3" onclick="clearseq('seq1')">Clear</button>
-     </div>
-    
-    <textarea id="seq1" name="sequence 1" rows="4" cols="90"></textarea>
-   
-   <div>DNA Sequence 2 (e.g. Donor), you may leave this empty:
-       circular: <input id="circular2" checked="checked" type="checkbox">
-        <button class="button button2" onclick="setseq('seq2',sampleseq2)">Load example</button>
-        <button id="clear2" class="button button3" onclick="clearseq('seq2')">Clear</button> 
-    </div>
-    
-    <textarea id="seq2" name="Sequence 2" rows="4" cols="90"></textarea>
-    <div>DNA Sequence 3 (e.g. final Plasmid for preselection):
-        circular: <input id="circular3" checked="checked" type="checkbox">
-        <button class="button button2" onclick="setseq('seq3',sampleseq3)">Load example</button>
-        <button id="clear3" class="button button3" onclick="clearseq('seq3')">Clear</button>
-     </div>
-    
-    <textarea id="seq3" name="Sequence 3" rows="4" cols="90"></textarea>
-
-    <div>
-      
-        <button class="button button1" onclick="myFunction()">Submit and Digest</button>
-        <button id="clear1" class="button button3" onclick="clearresults()">Clear Results</button>
-    </div> 
-
-<div class='label' id='commenton'>Info: </div>
-
-
-
-    <div class="h1">
-        <b>Results a) </b> (cutting enzymes, recognition sequence, number of matches on +/- strand)<br>
- 
-     </div>
-     
-    <table style="text-align: left; width: 95%;" border="1" cellpadding="2" cellspacing="2">
-        <tbody>
-          <tr>
-            <td style="vertical-align: top;"><div class="small">cut in Sequence 1:</div><br>
-</td>
-            <td style="vertical-align: top;"><div class="small">cut in Sequence 2:</div><br>
-</td>
-            <td style="vertical-align: top;"><div class="small">cut in Seqeunce 3:</div><br>
-</td>
-            <td style="vertical-align: top;"><div class="small">cut in Sequence 1 but not in Sequence 3:</div><br>
-</td>
-            <td style="vertical-align: top;"><div class="small">cut in Sequence 2 but not in Sequence3:</div><br>
-</td>
-            
-
-          
-          </tr>
-          <tr>
-            <td style="vertical-align: top;"><div class="small" id="cutinseq1"></div><br>
-</td>
-            <td style="vertical-align: top;"><div class="small" id="cutinseq2"></div><br>
-</td>
-            <td style="vertical-align: top;"><div class="small" id="cutinseq3"></div><br>
-</td>
-            <td style="vertical-align: top;"><div class="small" id="cutinseq1notin3"></div><br>
-</td>
-            <td style="vertical-align: top;"><div class="small" id="cutinseq2notin3"></div><br>
-</td>
-            
-          </tr>
-        </tbody>
-      </table>
-      <div class="h1">
-         
-        <b>Results b)</b> non-cutting enzymes<br>
-       
-     </div>
-      <table style="text-align: left; width: 75%;" border="1" cellpadding="2" cellspacing="2">
-        <tbody>
-          <tr>
-            
-            <td style="vertical-align: top;"><div class="small">no cut in Sequence 1:</div><br>
-</td>
-            <td style="vertical-align: top;"><div class="small">no cut in Sequence 2:</div><br>
-</td>
-            <td style="vertical-align: top;"><div class="small">no cut in Seqeunce 3:</div><br>
-</td>
-
-          
-          </tr>
-          <tr>
-            
-            <td style="vertical-align: top;"><div class="small" id="nocutinseq1"></div><br>
-</td>
-            <td style="vertical-align: top;"><div class="small" id="nocutinseq2"></div><br>
-</td>
-            <td style="vertical-align: top;"><div class="small" id="nocutinseq3"></div><br>
-</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-   
-
-
-
+		<div class="h1">
+			<b>Results c)</b> non-cutting enzymes<br>
+		</div>
+		<table style="text-align: left; width: 95%;" cellpadding="2" cellspacing="2">
+			<tbody>
+				<tr>
+					<td style="vertical-align: top;"><div class="small">no cut in Sequence 1:</div><br></td>
+					<td style="vertical-align: top;"><div class="small">no cut in Sequence 2:</div><br></td>
+					<td style="vertical-align: top;"><div class="small">no cut in Seqeunce 3:</div><br></td>
+				</tr>
+				<tr>
+					<td style="vertical-align: top;"><div class="small" id="nocutinseq1"></div><br></td>
+					<td style="vertical-align: top;"><div class="small" id="nocutinseq2"></div><br></td>
+					<td style="vertical-align: top;"><div class="small" id="nocutinseq3"></div><br></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 </body>
 </html>
