@@ -201,6 +201,49 @@
 			</div>
 		</div><br>
 
+		<table style="text-align: left; border:none;" cellpadding="2" cellspacing="2">
+			<tbody>
+				<tr>
+					<td style="vertical-align: top; border:none;">
+						<label for="EnzymesToUse">Enzymes to use:</label>
+					</td>
+					<td style="horizontal-align: top; border:none;">
+					</td>
+					<td style="vertical-align: top; border:none;">
+						<label for="EnzymesToExclude">Enzymes to exclude:</label>
+					</td>
+				<tr/>
+				<tr>
+					<td style="vertical-align: top; border:none;">
+						<div>
+							<select id="EnzymesToUse" name="EnzymesToUse" style="width:180px; height:120px" size="6" multiple>
+							</select>
+						</div>
+					</td>
+					<td style="horizontal-align: top; border:none;">
+						<div><button id="addEnzymes" class="button button2" onclick="addEnzymes()"><-</button></div>
+						<div><button id="removeEnymes" class="button button3" onclick="removeEnzymes()">-></button></div>
+					</td>
+					<td style="vertical-align: top; border:none;">
+						<div>
+							<select id="EnzymesToExclude" name="EnzymesToExclude" style="width:180px; height:120px" size="6" multiple>
+							</select>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td style="vertical-align: top; border:none;">
+						<div><button id="useAllEnzymes" class="button button2" onclick="useAllEnzymes()">Use all enzymes</button></div>
+					</td>
+					<td style="horizontal-align: top; border:none;">
+					</td>
+					<td style="vertical-align: top; border:none;">
+						<div><button id="removeAllEnymes" class="button button3" onclick="removeAllEnzymes()">Remove all enzymes</button></div>
+					</td>
+				<tr/>
+			</tbody>
+		</table><br>
+
 		<div>
 			<button class="button button1" onclick="myFunction()">Submit and Digest</button>
 			<button id="clearAll" class="button button3" onclick="clearresults()">Clear Results</button>
@@ -211,7 +254,7 @@
 		<div class="h1">
 			<b>Results a) </b> cutting enzymes in one sequence but not in another (recognition sequence, number of matches on +/- strand)<br>
 		</div>
-		<table style="text-align: left; width: 95%;" border="1" cellpadding="2" cellspacing="2">
+		<table style="text-align: left; width: 95%;" cellpadding="2" cellspacing="2">
 			<tbody>
 				<tr>
 					<td style="vertical-align: top;"><div class="small">cut in Sequence 1 but not in Sequence 3:</div><br></td>
@@ -227,7 +270,7 @@
 		<div class="h1">
 			<b>Results b) </b> cutting enzymes in one sequence (recognition sequence, number of matches on +/- strand)<br>
 		</div>
-		<table style="text-align: left; width: 95%;" border="1" cellpadding="2" cellspacing="2">
+		<table style="text-align: left; width: 95%;" cellpadding="2" cellspacing="2">
 			<tbody>
 				<tr>
 					<td style="vertical-align: top;"><div class="small">cut in Sequence 1:</div><br></td>
@@ -245,7 +288,7 @@
 		<div class="h1">
 			<b>Results c)</b> non-cutting enzymes<br>
 		</div>
-		<table style="text-align: left; width: 95%;" border="1" cellpadding="2" cellspacing="2">
+		<table style="text-align: left; width: 95%;" cellpadding="2" cellspacing="2">
 			<tbody>
 				<tr>
 					<td style="vertical-align: top;"><div class="small">no cut in Sequence 1:</div><br></td>

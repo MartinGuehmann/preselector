@@ -17,6 +17,89 @@ for (i = 0; i < enzymeentry.length; i++) {
 	regexrv.push(makeregex(cleanedrecog[i]));
 }
 
+window.onload=function()
+{
+	initEnzymeLists();
+}
+
+function initEnzymeLists()
+{
+	var enzymesToUse     = document.getElementById("EnzymesToUse");
+	var enzymesToExclude = document.getElementById("EnzymesToExclude");
+	for (var i in enzymearray)
+	{
+		enzymesToUse    .options[i] = new Option(enzymearray[i][0], i);
+		enzymesToExclude.options[i] = new Option(enzymearray[i][0], i);
+		enzymesToExclude.options[i].hidden = true;
+	}
+}
+
+function addEnzymes()
+{
+	var enzymesToUse     = document.getElementById("EnzymesToUse").options;
+	var enzymesToExclude = document.getElementById("EnzymesToExclude").options;
+
+	for(var i = 0; i < enzymesToExclude.length; i++)
+	{
+		if(enzymesToExclude[i].selected)
+		{
+			enzymesToUse[i].hidden = false;
+			enzymesToExclude[i].hidden = true;
+			enzymesToExclude[i].selected = false;
+		}
+	}
+}
+
+function removeEnzymes()
+{
+	var enzymesToUse     = document.getElementById("EnzymesToUse").options;
+	var enzymesToExclude = document.getElementById("EnzymesToExclude").options;
+
+	for(var i = 0; i < enzymesToUse.length; i++)
+	{
+		if(enzymesToUse[i].selected)
+		{
+			enzymesToExclude[i].hidden = false;
+			enzymesToUse[i].hidden = true;
+			enzymesToUse[i].selected = false;
+		}
+	}
+}
+
+function useAllEnzymes()
+{
+	var enzymesToUse     = document.getElementById("EnzymesToUse").options;
+	var enzymesToExclude = document.getElementById("EnzymesToExclude").options;
+
+	for(var i = 0; i < enzymesToUse.length; i++)
+	{
+		enzymesToUse[i].hidden = false;
+	}
+
+	for(var i = 0; i < enzymesToExclude.length; i++)
+	{
+		enzymesToExclude[i].hidden = true;
+		enzymesToExclude[i].selected = false;
+	}
+}
+
+function removeAllEnzymes()
+{
+	var enzymesToUse     = document.getElementById("EnzymesToUse").options;
+	var enzymesToExclude = document.getElementById("EnzymesToExclude").options;
+
+	for(var i = 0; i < enzymesToUse.length; i++)
+	{
+		enzymesToUse[i].hidden = true;
+		enzymesToUse[i].selected = false;
+	}
+
+	for(var i = 0; i < enzymesToExclude.length; i++)
+	{
+		enzymesToExclude[i].hidden = false;
+	}
+}
+
 function clean(p1) {
 	p2=p1.replace(/\^|\(|\)|[0-9]|\/|-|_|\'/gm,'');
 	p2=p2.replace(/[a-z]+/g, (c) => c.toUpperCase());
@@ -196,7 +279,15 @@ function myFunction() {
 	seq2=getSequence("2");
 	seq3=getSequence("3");
 
-	for (i = 0; i < enzymearray.length; i++) {
+	var enzymesToUse     = document.getElementById("EnzymesToUse");
+
+	for (var i = 0; i < enzymearray.length; i++) {
+
+		if(enzymesToUse[i].hidden)
+		{
+			continue;
+		}
+
 		nfw1=testforcut(seq1, regexfw[i]);
 		nrv1=testforcut(seq1, regexrv[i]);
 		nfw2=testforcut(seq2, regexfw[i]);
@@ -248,7 +339,7 @@ function myFunction() {
 			text13 = text13 + enzymearray[i][0] + " " + recognition[i].bold()+
 			' ' + numberofcut(seq1,regexfw[i])+ ' ' + numberofcut(seq1,regexrv[i])    +
 			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymearray[i][0] +'.html" target="_blank">'+ enzymearray[i][0]+'</a>'+
-				'<BR>';
+			'<BR>';
 		}
 
 		if((n2>-2)&&(n3==-2)){
@@ -256,8 +347,7 @@ function myFunction() {
 			text23 = text23 + enzymearray[i][0] + " " + recognition[i].bold()+
 			' ' + numberofcut(seq2,regexfw[i])+ ' ' + numberofcut(seq2,regexrv[i])    +
 			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymearray[i][0] +'.html" target="_blank">'+ enzymearray[i][0]+'</a>'+
-		'<BR>';
-
+			'<BR>';
 		}
 	}
 
