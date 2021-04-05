@@ -198,6 +198,14 @@ var sampleseq3='tcgaccgatgcccttgagagccttcaacccagtcagctccttccggtgggcgcggggcatgact
 
 function clearseq(id){
 	document.getElementById(id).value='';
+	clearresults()
+}
+
+function clearSequences(){
+	clearseq('seq1')
+	clearseq('seq2')
+	clearseq('seq3')
+	clearresults()
 }
 
 function setseq(id,seq){
