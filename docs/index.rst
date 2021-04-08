@@ -18,4 +18,4 @@ preselector.uni-jena.de helps to identify appropriate restriction enzymes for pr
    examples
    about
    
-preselector.uni-jena.de has been developed in the Mrowka Lab and was published in ... . If preselector.uni-jena.de proved useful to your work, please consider citing us in your work. 
+preselector.uni-jena.de has been developed in the Mrowka Lab.
