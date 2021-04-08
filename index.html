@@ -212,6 +212,8 @@
 					<td style="vertical-align: top; border:none;">
 						<label for="EnzymesToExclude">Enzymes to exclude:</label>
 					</td>
+					<td style="horizontal-align: top; border:none;">
+					</td>
 				<tr/>
 				<tr>
 					<td style="vertical-align: top; border:none;">
@@ -230,6 +232,19 @@
 							</select>
 						</div>
 					</td>
+					<td style="horizontal-align: top; border:none;">
+						<div>
+							<button type="file" id="loadEnymes" class="button button2" onclick="loadEnzymes()">Load Enzymes...</button>
+							<input type="file" id="loadEnzymesDialog" style="display:none" onchange="onChangeLoadEnzymes()"/>
+						</div>
+						<div>
+							<button type="file" id="saveEnymes" class="button button1" onclick="saveEnzymes()">Save Enzymes...</button>
+							<a id="saveEnzymesDialog" style="display:none"/>
+						</div>
+					</td>
+					<td style="horizontal-align: top; border:none;">
+						<div class='label' id='fileWarning' style="color:red"></div>
+					</td>
 				</tr>
 				<tr>
 					<td style="vertical-align: top; border:none;">
@@ -239,6 +254,8 @@
 					</td>
 					<td style="vertical-align: top; border:none;">
 						<div><button id="removeAllEnymes" class="button button3" onclick="removeAllEnzymes()">Remove all enzymes</button></div>
+					</td>
+					<td style="horizontal-align: top; border:none;">
 					</td>
 				<tr/>
 			</tbody>
