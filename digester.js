@@ -50,6 +50,8 @@ function addEnzymes()
 			enzymesToExclude[i].selected = false;
 		}
 	}
+
+	document.getElementById("fileWarning").innerHTML = "";
 }
 
 function removeEnzymes()
@@ -66,6 +68,8 @@ function removeEnzymes()
 			enzymesToUse[i].selected = false;
 		}
 	}
+
+	document.getElementById("fileWarning").innerHTML = "";
 }
 
 function useAllEnzymes()
@@ -83,6 +87,8 @@ function useAllEnzymes()
 		enzymesToExclude[i].hidden = true;
 		enzymesToExclude[i].selected = false;
 	}
+
+	document.getElementById("fileWarning").innerHTML = "";
 }
 
 function removeAllEnzymes()
@@ -100,6 +106,8 @@ function removeAllEnzymes()
 	{
 		enzymesToExclude[i].hidden = false;
 	}
+
+	document.getElementById("fileWarning").innerHTML = "";
 }
 
 function loadEnzymes()
@@ -185,6 +193,8 @@ function saveEnzymes()
 	loadEnzymesDialog.setAttribute("download", "EnzymesToSave.txt");
 	loadEnzymesDialog.setAttribute("href", enzymesToSaveFileBody);
 	loadEnzymesDialog.click();
+
+	document.getElementById("fileWarning").innerHTML = "";
 }
 
 function clean(p1) {
@@ -286,6 +296,8 @@ var sampleseq3='tcgaccgatgcccttgagagccttcaacccagtcagctccttccggtgggcgcggggcatgact
 function clearseq(id){
 	document.getElementById(id).value='';
 	clearresults()
+
+	document.getElementById("fileWarning").innerHTML = "";
 }
 
 function clearSequences(){
@@ -297,6 +309,7 @@ function clearSequences(){
 
 function setseq(id,seq){
 	document.getElementById(id).value=seq;
+	document.getElementById("fileWarning").innerHTML = "";
 }
 
 function clearresults(){
@@ -308,6 +321,8 @@ function clearresults(){
 	document.getElementById("nocutinseq1").innerHTML ='';
 	document.getElementById("nocutinseq2").innerHTML = '';
 	document.getElementById("nocutinseq3").innerHTML = '';
+
+	document.getElementById("fileWarning").innerHTML = "";
 }
 
 function remvoveFastaID(seq){
@@ -368,6 +383,8 @@ function myFunction() {
 		notext1='', notext2 = '', notext3='',text13='',text23 ='' ,
 		nfw1,nrv1,nfw2,nrv2,nfw3,nrv3,
 		commenttext='Info: ';
+
+	document.getElementById("fileWarning").innerHTML = "";
 
 	document.getElementById("commenton").innerHTML = commenttext;
 	seq1=getSequence("1");
