@@ -1,6 +1,11 @@
 About
 =====
 
+Links
+^^^^^^^
+Link for the tool: https://preselector.uni-jena.de/
+Link for the GitHub repository: https://github.com/janH-21/preselector.uni-jena.de
+
 Contact
 ^^^^^^^
 | Prof. Dr. Ralf Mrowka
