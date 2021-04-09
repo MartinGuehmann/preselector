@@ -8,6 +8,15 @@ var reversecompl =[];
 var regexfw = [];
 var regexrv = [];
 
+var cutinseq1notin3Label = "cut in Sequence 1 but not in Sequence 3";
+var cutinseq2notin3Label = "cut in Sequence 2 but not in Sequence 3";
+var cutinseq1Label = "cut in Sequence 1";
+var cutinseq2Label = "cut in Sequence 2";
+var cutinseq3Label = "cut in Sequence 3";
+var nocutinseq1Label = "no cut in Sequence 1";
+var nocutinseq2Label = "no cut in Sequence 2";
+var nocutinseq3Label = "no cut in Sequence 3";
+
 for (i = 0; i < enzymeentry.length; i++) {
 	enzymearray.push(enzymeentry[i].split('\t'));
 	recognition.push(enzymearray[i][1]);
@@ -20,6 +29,21 @@ for (i = 0; i < enzymeentry.length; i++) {
 window.onload=function()
 {
 	initEnzymeLists();
+	resetListLabels();
+}
+
+function resetListLabels()
+{
+	document.getElementById("cutinseq1notin3Label").innerHTML = cutinseq1notin3Label + ":";
+	document.getElementById("cutinseq2notin3Label").innerHTML = cutinseq2notin3Label + ":";
+
+	document.getElementById("cutinseq1Label").innerHTML = cutinseq1Label + ":";
+	document.getElementById("cutinseq2Label").innerHTML = cutinseq2Label + ":";
+	document.getElementById("cutinseq3Label").innerHTML = cutinseq3Label + ":";
+
+	document.getElementById("nocutinseq1Label").innerHTML = nocutinseq1Label + ":";
+	document.getElementById("nocutinseq2Label").innerHTML = nocutinseq2Label + ":";
+	document.getElementById("nocutinseq3Label").innerHTML = nocutinseq3Label + ":";
 }
 
 function initEnzymeLists()
@@ -323,6 +347,8 @@ function clearresults(){
 	document.getElementById("nocutinseq3").innerHTML = '';
 
 	document.getElementById("fileWarning").innerHTML = "";
+
+	resetListLabels();
 }
 
 function remvoveFastaID(seq){
@@ -384,6 +410,19 @@ function myFunction() {
 		nfw1,nrv1,nfw2,nrv2,nfw3,nrv3,
 		commenttext='Info: ';
 
+	var allSeqsNum = 0;
+
+	var seq1CutNum = 0;
+	var seq2CutNum = 0;
+	var seq3CutNum = 0;
+
+	var seq1NoCutNum = 0;
+	var seq2NoCutNum = 0;
+	var seq3NoCutNum = 0;
+
+	var seq13CutNum = 0;
+	var seq23CutNum = 0;
+
 	document.getElementById("fileWarning").innerHTML = "";
 
 	document.getElementById("commenton").innerHTML = commenttext;
@@ -400,6 +439,8 @@ function myFunction() {
 			continue;
 		}
 
+		allSeqsNum++;
+
 		nfw1=testforcut(seq1, regexfw[i]);
 		nrv1=testforcut(seq1, regexrv[i]);
 		nfw2=testforcut(seq2, regexfw[i]);
@@ -409,12 +450,13 @@ function myFunction() {
 
 		n1=nfw1+nrv1
 		if(n1 >-2 ){
+			seq1CutNum++;
 			text1 = text1 + enzymearray[i][0] + " " + recognition[i].bold() +
 			' ' + numberofcut(seq1,regexfw[i])+ ' ' + numberofcut(seq1,regexrv[i])    +
 			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymearray[i][0] +'.html" target="_blank">'+ enzymearray[i][0]+'</a>'+
 			'<BR>';
 		}else{
-
+			seq1NoCutNum++;
 			notext1 = notext1 + enzymearray[i][0] + " " + recognition[i].bold()    +
 			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymearray[i][0] +'.html" target="_blank">'+ enzymearray[i][0]+'</a>'+
 			'<BR>';
@@ -422,12 +464,13 @@ function myFunction() {
 
 		n2=nfw2+nrv2
 		if(n2 >-2 ){
+			seq2CutNum++;
 			text2 = text2 + enzymearray[i][0] + " " + recognition[i].bold()+
 			' ' + numberofcut(seq2,regexfw[i])+ ' ' + numberofcut(seq2,regexrv[i])    +
 			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymearray[i][0] +'.html" target="_blank">'+ enzymearray[i][0]+'</a>'+
 			'<BR>';
 		}else{
-
+			seq2NoCutNum++;
 			notext2 = notext2 + enzymearray[i][0] + " " + recognition[i].bold()    +
 			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymearray[i][0] +'.html" target="_blank">'+ enzymearray[i][0]+'</a>'+
 			'<BR>';
@@ -435,19 +478,20 @@ function myFunction() {
 
 		n3=nfw3+nrv3
 		if(n3 >-2 ){
+			seq3CutNum++;
 			text3 = text3 + enzymearray[i][0] + " " + recognition[i].bold() +
 			' ' + numberofcut(seq3,regexfw[i])+ ' ' + numberofcut(seq3,regexrv[i])    +
 			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymearray[i][0] +'.html" target="_blank">'+ enzymearray[i][0]+'</a>'+
 			'<BR>';
 		}else{
-
+			seq3NoCutNum++;
 			notext3 = notext3 + enzymearray[i][0] + " " + recognition[i].bold()   +
 			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymearray[i][0] +'.html" target="_blank">'+ enzymearray[i][0]+'</a>'+
 			'<BR>';
 		}
 
 		if((n1>-2)&&(n3==-2)){
-
+			seq13CutNum++;
 			text13 = text13 + enzymearray[i][0] + " " + recognition[i].bold()+
 			' ' + numberofcut(seq1,regexfw[i])+ ' ' + numberofcut(seq1,regexrv[i])    +
 			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymearray[i][0] +'.html" target="_blank">'+ enzymearray[i][0]+'</a>'+
@@ -455,7 +499,7 @@ function myFunction() {
 		}
 
 		if((n2>-2)&&(n3==-2)){
-
+			seq23CutNum++;
 			text23 = text23 + enzymearray[i][0] + " " + recognition[i].bold()+
 			' ' + numberofcut(seq2,regexfw[i])+ ' ' + numberofcut(seq2,regexrv[i])    +
 			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymearray[i][0] +'.html" target="_blank">'+ enzymearray[i][0]+'</a>'+
@@ -479,4 +523,15 @@ function myFunction() {
 	if(seq1.length>1){document.getElementById("nocutinseq1").innerHTML = notext1;} else document.getElementById("nocutinseq1").innerHTML = '';
 	if(seq2.length>1){document.getElementById("nocutinseq2").innerHTML = notext2;} else document.getElementById("nocutinseq2").innerHTML = '';
 	if(seq3.length>1){document.getElementById("nocutinseq3").innerHTML = notext3;} else document.getElementById("nocutinseq3").innerHTML = '';
+
+	document.getElementById("cutinseq1notin3Label").innerHTML = cutinseq1notin3Label + " (" + seq13CutNum + " of " + allSeqsNum + " selected enzymes):";
+	document.getElementById("cutinseq2notin3Label").innerHTML = cutinseq2notin3Label + " (" + seq23CutNum + " of " + allSeqsNum + " selected enzymes):";
+
+	document.getElementById("cutinseq1Label").innerHTML = cutinseq1Label + " (" + seq1CutNum + " of " + allSeqsNum + " selected enzymes):";
+	document.getElementById("cutinseq2Label").innerHTML = cutinseq2Label + " (" + seq2CutNum + " of " + allSeqsNum + " selected enzymes):";
+	document.getElementById("cutinseq3Label").innerHTML = cutinseq3Label + " (" + seq3CutNum + " of " + allSeqsNum + " selected enzymes):";
+
+	document.getElementById("nocutinseq1Label").innerHTML = nocutinseq1Label + " (" + seq1NoCutNum + " of " + allSeqsNum + " selected enzymes):";
+	document.getElementById("nocutinseq2Label").innerHTML = nocutinseq2Label + " (" + seq2NoCutNum + " of " + allSeqsNum + " selected enzymes):";
+	document.getElementById("nocutinseq3Label").innerHTML = nocutinseq3Label + " (" + seq3NoCutNum + " of " + allSeqsNum + " selected enzymes):";
 }
