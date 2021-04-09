@@ -1,7 +1,7 @@
 Quick Guide
 ===========
 
-1. Paste your DNA sequences into the respective fields, and check the box if your sequence is circular. Sequence 1 should be the sequence of the recipient backbone, and sequence 3 the final plasmid including the insert. Sequence 2 is optional, and can be used for the donor plasmid. (Although this tool is designed for preselection digests, you can of course also use the tool two compare restriction enzyme site availability for any other application.)
+1. Paste your DNA sequences into the respective fields, and check the box if your sequence is circular. Sequence 1 should be the sequence of the recipient backbone, and sequence 3 the final plasmid including the insert. Sequence 2 is optional, and can be used for the donor plasmid. (Although this tool is designed for preselection digests, you can of course also use it to compare restriction enzyme site availability for any other application.)
 
 .. image:: images/workflow_01.png
   :width: 450
