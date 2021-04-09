@@ -7,13 +7,13 @@ Quick Guide
   :width: 450
   :alt: preselection digest principle
 
-2. Choose the restriction enzymes you wish to include in the search. You can do this by selecting enzymes from the list using the errors (arrow 1, left panel). Alternatively, you can provide a text file containing the enzymes (arrow 2, and right panel). The file should contain one enzyme per row, and unknown enzymes will be ignored. In addition, you can save the list of used enzymes for your documentation or later reuse (arrow 3).
-
-3. Click "Submit and Digest" to run the analysis.
+2. Choose the restriction enzymes you wish to include in the search. You can do this by selecting enzymes from the list using the errors. Alternatively, you can provide a text file containing the enzymes (format in right panel). The file should contain one enzyme per row, and unknown enzymes will be ignored. In addition, you can save the list of used enzymes for your documentation or later reuse.
 
 .. image:: images/workflow_02.png
   :width: 450
   :alt: preselection digest principle
+  
+3. Click "Submit and Digest" to run the analysis.
 
 4. Your results will be displayed in the table below. The results are separated by cutting enzymes (b) and non-cutting enzymes (c) for every sequence provided. In (a), the enzymes that cut in sequence 1 (recipient backbone, left column), or sequence 2 (donor, right column), respectively, but not in sequence 3 (final plasmid).
 
