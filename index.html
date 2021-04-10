@@ -167,12 +167,14 @@
 	<div id="digester" class="w3-container  tab" style="display: none;">
 
 		<div class="h1">Digester for Preselection</div><br>
+		<input type="file" id="loadSequenceDialog" style="display:none" onchange="onChangeLoadSequences()"/>
 
 		<div>DNA Sequence 1 (e.g. DNA sequence of recipient plasmid):
 			<div>
 				<textarea id="seq1" name="sequence 1" rows="4" cols="90"></textarea>
 			</div>
 			<div>
+				<button class="button button2" onclick="loadSequence('seq1')">Load sequence...</button>
 				<button class="button button2" onclick="setseq('seq1',sampleseq1)">Load example</button>
 				<button id="clear1" class="button button3" onclick="clearseq('seq1')">Clear</button>
 				circular: <input id="circular1" checked="checked" type="checkbox">
@@ -184,6 +186,7 @@
 				<textarea id="seq2" name="Sequence 2" rows="4" cols="90"></textarea>
 			</div>
 			<div>
+				<button class="button button2" onclick="loadSequence('seq2')">Load sequence...</button>
 				<button class="button button2" onclick="setseq('seq2',sampleseq2)">Load example</button>
 				<button id="clear2" class="button button3" onclick="clearseq('seq2')">Clear</button>
 				circular: <input id="circular2" checked="checked" type="checkbox">
@@ -195,6 +198,7 @@
 				<textarea id="seq3" name="Sequence 3" rows="4" cols="90"></textarea>
 			</div>
 			<div>
+				<button class="button button2" onclick="loadSequence('seq3')">Load sequence...</button>
 				<button class="button button2" onclick="setseq('seq3',sampleseq3)">Load example</button>
 				<button id="clear3" class="button button3" onclick="clearseq('seq3')">Clear</button>
 				circular: <input id="circular3" checked="checked" type="checkbox">

@@ -213,10 +213,10 @@ function saveEnzymes()
 	enzymesToSaveFileBody = enzymesToSaveFileBody.replace(/\n/g, "%0D%0A");
 	enzymesToSaveFileBody = enzymesToSaveFileBody.replace(/#/g, "%23");
 
-	var loadEnzymesDialog = document.getElementById("saveEnzymesDialog");
-	loadEnzymesDialog.setAttribute("download", "EnzymesToSave.txt");
-	loadEnzymesDialog.setAttribute("href", enzymesToSaveFileBody);
-	loadEnzymesDialog.click();
+	var saveEnzymesDialog = document.getElementById("saveEnzymesDialog");
+	saveEnzymesDialog.setAttribute("download", "EnzymesToSave.txt");
+	saveEnzymesDialog.setAttribute("href", enzymesToSaveFileBody);
+	saveEnzymesDialog.click();
 
 	document.getElementById("fileWarning").innerHTML = "";
 }
@@ -331,9 +331,35 @@ function clearSequences(){
 	clearresults()
 }
 
-function setseq(id,seq){
+function setseq(id, seq)
+{
 	document.getElementById(id).value=seq;
 	document.getElementById("fileWarning").innerHTML = "";
+}
+
+function loadSequence(id)
+{
+	var loadSequenceDialog = document.getElementById("loadSequenceDialog");
+	loadSequenceDialog.customTextFieldId = id;
+	loadSequenceDialog.click();
+
+	document.getElementById("fileWarning").innerHTML = "";
+}
+
+function onChangeLoadSequences()
+{
+	var loadSequenceDialog = document.getElementById("loadSequenceDialog");
+
+	var sequenceFile = loadSequenceDialog.files[0];
+	var id = loadSequenceDialog.customTextFieldId;
+
+	var reader = new FileReader();
+	reader.onload = function(event)
+	{
+		document.getElementById(id).value = event.target.result;
+	};
+
+	reader.readAsText(sequenceFile);
 }
 
 function clearresults(){
