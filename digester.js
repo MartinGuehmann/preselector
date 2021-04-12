@@ -152,7 +152,8 @@ function onChangeLoadEnzymes()
 		fileWarning = "";
 		removeAllEnzymes();
 
-		var enzymesToUse = document.getElementById("EnzymesToUse").options;
+		var enzymesToUse     = document.getElementById("EnzymesToUse").options;
+		var enzymesToExclude = document.getElementById("EnzymesToExclude").options;
 
 		const file = event.target.result;
 		const allLines = file.split(/\r\n|\n/);
@@ -168,10 +169,12 @@ function onChangeLoadEnzymes()
 			}
 
 			var enzymeToUseItem = enzymesToUse.namedItem(line);
+			var enzymesToExcludeItem = enzymesToExclude.namedItem(line);
 
 			if(enzymeToUseItem != null)
 			{
 				enzymeToUseItem.hidden = false;
+				enzymesToExcludeItem.hidden = true;
 			}
 			else if(fileWarning == "")
 			{
