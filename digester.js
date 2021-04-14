@@ -438,14 +438,14 @@ function makeCutText(enzyme, seq)
 {
 	return enzyme.name + " " + enzyme.recognition.bold() +
 	' ' + numberofcut(seq, enzyme.regexfw)+ ' ' + numberofcut(seq, enzyme.regexrv)    +
-	' <a href="http://rebase.neb.com/rebase/enz/'+ enzyme.name +'.html" target="_blank">'+ enzyme.name+'</a>'+
+	' <a href="http://rebase.neb.com/rebase/enz/'+ enzyme.name +'.html" target="_blank" rel="noopener">'+ enzyme.name+'</a>'+
 	'<BR>';
 }
 
 function makeCutNonText(enzyme)
 {
 	return enzyme.name + " " + enzyme.recognition.bold()    +
-	' <a href="http://rebase.neb.com/rebase/enz/'+ enzyme.name +'.html" target="_blank">'+ enzyme.name+'</a>'+
+	' <a href="http://rebase.neb.com/rebase/enz/'+ enzyme.name +'.html" target="_blank" rel="noopener">'+ enzyme.name+'</a>'+
 	'<BR>';
 }
 
