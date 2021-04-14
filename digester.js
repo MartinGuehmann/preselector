@@ -14,17 +14,35 @@ var nocutinseq3Label = "no cut in Sequence 3";
 for (i = 0; i < enzymeentry.length; i++)
 {
 	var rawEntry = enzymeentry[i].split('\t');
-	var enzyme = new Object();
-	enzyme.name = rawEntry[0];
-	enzyme.recognition = rawEntry[1];
 
-	cleanRecognition = clean(enzyme.recognition);
-	reverseComplement = revcompl(cleanRecognition);
+	if(!enzymeArray.some(enzyme => enzyme.name === rawEntry[0]))
+	{
+		var enzyme = new Object();
+		enzyme.name = rawEntry[0];
+		enzyme.recognition = [];
+		enzyme.recognition[0] = rawEntry[1];
 
-	enzyme.regexfw = makeregex(reverseComplement);
-	enzyme.regexrv = makeregex(cleanRecognition);
+		cleanRecognition = clean(enzyme.recognition[0]);
+		reverseComplement = revcompl(cleanRecognition);
 
-	enzymeArray.push(enzyme);
+		enzyme.regexfw = [];
+		enzyme.regexrv = [];
+		enzyme.regexfw[0] = makeregex(reverseComplement);
+		enzyme.regexrv[0] = makeregex(cleanRecognition);
+
+		enzymeArray.push(enzyme);
+	}
+	else
+	{
+		var newIndex = enzyme.recognition.length;
+		enzyme.recognition[newIndex] = rawEntry[1];;
+
+		cleanRecognition = clean(enzyme.recognition[newIndex]);
+		reverseComplement = revcompl(cleanRecognition);
+
+		enzyme.regexfw[newIndex] = makeregex(reverseComplement);
+		enzyme.regexrv[newIndex] = makeregex(cleanRecognition);
+	}
 }
 
 window.onload=function()
@@ -293,27 +311,42 @@ function makeregex(p1) {
 	return p5
 }
 
-function reverse(str){
+function reverse(str)
+{
 	let reversed = "";
-	for (var i = str.length - 1; i >= 0; i--){
+	for (let i = str.length - 1; i >= 0; i--)
+	{
 		reversed += str[i];
 	}
 	return reversed;
 }
 
-function testforcut(str,reg){
-	var re = new RegExp(reg, "i");
-	var n = str.search(re);
+function testforcut(seq, regSites)
+{
+	let n = 0;
+
+	for(let i = 0; i < regSites.length; i++)
+	{
+		let re = new RegExp(regSites[i], "i");
+		n += seq.search(re);
+	}
+
 	return n
 }
 
-function numberofcut(str,reg){
-	var re = new RegExp(reg, "ig");
-	var n = 0
-	var found = str.match(re);
-	if(found != null){
-		n=found.length
+function numberofcut(seq, regSites)
+{
+	let n = 0;
+
+	for(let i = 0; i < regSites.length; i++)
+	{
+		let re = new RegExp(regSites[i], "ig");
+		let found = seq.match(re);
+		if(found != null){
+			n=found.length
+		}
 	}
+
 	return n
 }
 
@@ -436,17 +469,28 @@ function getSequence(seqID){
 
 function makeCutText(enzyme, seq)
 {
-	return enzyme.name + " " + enzyme.recognition.bold() +
-	' ' + numberofcut(seq, enzyme.regexfw)+ ' ' + numberofcut(seq, enzyme.regexrv)    +
+	return enzyme.name + getRecSitesText(enzyme.recognition) +
+	' ' + numberofcut(seq, enzyme.regexfw)+ ' ' + numberofcut(seq, enzyme.regexrv) +
 	' <a href="http://rebase.neb.com/rebase/enz/'+ enzyme.name +'.html" target="_blank" rel="noopener">'+ enzyme.name+'</a>'+
 	'<BR>';
 }
 
 function makeCutNonText(enzyme)
 {
-	return enzyme.name + " " + enzyme.recognition.bold()    +
+	return enzyme.name + getRecSitesText(enzyme.recognition) +
 	' <a href="http://rebase.neb.com/rebase/enz/'+ enzyme.name +'.html" target="_blank" rel="noopener">'+ enzyme.name+'</a>'+
 	'<BR>';
+}
+
+function getRecSitesText(recSites)
+{
+	let recSiteText = "";
+	for(let i = 0; i < recSites.length; i++)
+	{
+		recSiteText += " " + recSites[i].bold();
+	}
+
+	return recSiteText;
 }
 
 function myFunction() {
