@@ -1,11 +1,6 @@
 // Copyright by Martin and Ralf Mrowka (C) 2021,  all rights reserved
 
-var enzymearray = [];
-var recognition = [];
-var cleanedrecog = [];
-var reversecompl =[];
-var regexfw = [];
-var regexrv = [];
+var enzymeArray = [];
 
 var cutinseq1notin3Label = "cut in Sequence 1 but not in Sequence 3";
 var cutinseq2notin3Label = "cut in Sequence 2 but not in Sequence 3";
@@ -16,13 +11,20 @@ var nocutinseq1Label = "no cut in Sequence 1";
 var nocutinseq2Label = "no cut in Sequence 2";
 var nocutinseq3Label = "no cut in Sequence 3";
 
-for (i = 0; i < enzymeentry.length; i++) {
-	enzymearray.push(enzymeentry[i].split('\t'));
-	recognition.push(enzymearray[i][1]);
-	cleanedrecog.push(clean(enzymearray[i][1]));
-	reversecompl.push(revcompl(cleanedrecog[i]));
-	regexfw.push(makeregex(reversecompl[i]));
-	regexrv.push(makeregex(cleanedrecog[i]));
+for (i = 0; i < enzymeentry.length; i++)
+{
+	var rawEntry = enzymeentry[i].split('\t');
+	var enzyme = new Object();
+	enzyme.name = rawEntry[0];
+	enzyme.recognition = rawEntry[1];
+
+	cleanRecognition = clean(enzyme.recognition);
+	reverseComplement = revcompl(cleanRecognition);
+
+	enzyme.regexfw = makeregex(reverseComplement);
+	enzyme.regexrv = makeregex(cleanRecognition);
+
+	enzymeArray.push(enzyme);
 }
 
 window.onload=function()
@@ -49,12 +51,12 @@ function initEnzymeLists()
 {
 	var enzymesToUse     = document.getElementById("EnzymesToUse");
 	var enzymesToExclude = document.getElementById("EnzymesToExclude");
-	for (var i in enzymearray)
+	for (var i in enzymeArray)
 	{
-		enzymesToUse    .options[i] = new Option(enzymearray[i][0], i);
-		enzymesToExclude.options[i] = new Option(enzymearray[i][0], i);
-		enzymesToUse    .options[i].id = enzymearray[i][0];
-		enzymesToExclude.options[i].id = enzymearray[i][0];
+		enzymesToUse    .options[i] = new Option(enzymeArray[i].name, i);
+		enzymesToExclude.options[i] = new Option(enzymeArray[i].name, i);
+		enzymesToUse    .options[i].id = enzymeArray[i].name;
+		enzymesToExclude.options[i].id = enzymeArray[i].name;
 		enzymesToExclude.options[i].hidden = true;
 	}
 }
@@ -460,7 +462,7 @@ function myFunction() {
 
 	var enzymesToUse     = document.getElementById("EnzymesToUse");
 
-	for (var i = 0; i < enzymearray.length; i++) {
+	for (var i = 0; i < enzymeArray.length; i++) {
 
 		if(enzymesToUse[i].hidden)
 		{
@@ -469,68 +471,68 @@ function myFunction() {
 
 		allSeqsNum++;
 
-		nfw1=testforcut(seq1, regexfw[i]);
-		nrv1=testforcut(seq1, regexrv[i]);
-		nfw2=testforcut(seq2, regexfw[i]);
-		nrv2=testforcut(seq2, regexrv[i]);
-		nfw3=testforcut(seq3, regexfw[i]);
-		nrv3=testforcut(seq3, regexrv[i]);
+		nfw1=testforcut(seq1, enzymeArray[i].regexfw);
+		nrv1=testforcut(seq1, enzymeArray[i].regexrv);
+		nfw2=testforcut(seq2, enzymeArray[i].regexfw);
+		nrv2=testforcut(seq2, enzymeArray[i].regexrv);
+		nfw3=testforcut(seq3, enzymeArray[i].regexfw);
+		nrv3=testforcut(seq3, enzymeArray[i].regexrv);
 
 		n1=nfw1+nrv1
 		if(n1 >-2 ){
 			seq1CutNum++;
-			text1 = text1 + enzymearray[i][0] + " " + recognition[i].bold() +
-			' ' + numberofcut(seq1,regexfw[i])+ ' ' + numberofcut(seq1,regexrv[i])    +
-			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymearray[i][0] +'.html" target="_blank">'+ enzymearray[i][0]+'</a>'+
+			text1 = text1 + enzymeArray[i].name + " " + enzymeArray[i].recognition.bold() +
+			' ' + numberofcut(seq1,enzymeArray[i].regexfw)+ ' ' + numberofcut(seq1,enzymeArray[i].regexrv)    +
+			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymeArray[i].name +'.html" target="_blank">'+ enzymeArray[i].name+'</a>'+
 			'<BR>';
 		}else{
 			seq1NoCutNum++;
-			notext1 = notext1 + enzymearray[i][0] + " " + recognition[i].bold()    +
-			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymearray[i][0] +'.html" target="_blank">'+ enzymearray[i][0]+'</a>'+
+			notext1 = notext1 + enzymeArray[i].name + " " + enzymeArray[i].recognition.bold()    +
+			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymeArray[i].name +'.html" target="_blank">'+ enzymeArray[i].name+'</a>'+
 			'<BR>';
 		}
 
 		n2=nfw2+nrv2
 		if(n2 >-2 ){
 			seq2CutNum++;
-			text2 = text2 + enzymearray[i][0] + " " + recognition[i].bold()+
-			' ' + numberofcut(seq2,regexfw[i])+ ' ' + numberofcut(seq2,regexrv[i])    +
-			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymearray[i][0] +'.html" target="_blank">'+ enzymearray[i][0]+'</a>'+
+			text2 = text2 + enzymeArray[i].name + " " + enzymeArray[i].recognition.bold()+
+			' ' + numberofcut(seq2,enzymeArray[i].regexfw)+ ' ' + numberofcut(seq2,enzymeArray[i].regexrv)    +
+			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymeArray[i].name +'.html" target="_blank">'+ enzymeArray[i].name+'</a>'+
 			'<BR>';
 		}else{
 			seq2NoCutNum++;
-			notext2 = notext2 + enzymearray[i][0] + " " + recognition[i].bold()    +
-			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymearray[i][0] +'.html" target="_blank">'+ enzymearray[i][0]+'</a>'+
+			notext2 = notext2 + enzymeArray[i].name + " " + enzymeArray[i].recognition.bold()    +
+			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymeArray[i].name +'.html" target="_blank">'+ enzymeArray[i].name+'</a>'+
 			'<BR>';
 		}
 
 		n3=nfw3+nrv3
 		if(n3 >-2 ){
 			seq3CutNum++;
-			text3 = text3 + enzymearray[i][0] + " " + recognition[i].bold() +
-			' ' + numberofcut(seq3,regexfw[i])+ ' ' + numberofcut(seq3,regexrv[i])    +
-			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymearray[i][0] +'.html" target="_blank">'+ enzymearray[i][0]+'</a>'+
+			text3 = text3 + enzymeArray[i].name + " " + enzymeArray[i].recognition.bold() +
+			' ' + numberofcut(seq3,enzymeArray[i].regexfw)+ ' ' + numberofcut(seq3,enzymeArray[i].regexrv)    +
+			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymeArray[i].name +'.html" target="_blank">'+ enzymeArray[i].name+'</a>'+
 			'<BR>';
 		}else{
 			seq3NoCutNum++;
-			notext3 = notext3 + enzymearray[i][0] + " " + recognition[i].bold()   +
-			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymearray[i][0] +'.html" target="_blank">'+ enzymearray[i][0]+'</a>'+
+			notext3 = notext3 + enzymeArray[i].name + " " + enzymeArray[i].recognition.bold()   +
+			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymeArray[i].name +'.html" target="_blank">'+ enzymeArray[i].name+'</a>'+
 			'<BR>';
 		}
 
 		if((n1>-2)&&(n3==-2)){
 			seq13CutNum++;
-			text13 = text13 + enzymearray[i][0] + " " + recognition[i].bold()+
-			' ' + numberofcut(seq1,regexfw[i])+ ' ' + numberofcut(seq1,regexrv[i])    +
-			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymearray[i][0] +'.html" target="_blank">'+ enzymearray[i][0]+'</a>'+
+			text13 = text13 + enzymeArray[i].name + " " + enzymeArray[i].recognition.bold()+
+			' ' + numberofcut(seq1,enzymeArray[i].regexfw)+ ' ' + numberofcut(seq1,enzymeArray[i].regexrv)    +
+			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymeArray[i].name +'.html" target="_blank">'+ enzymeArray[i].name+'</a>'+
 			'<BR>';
 		}
 
 		if((n2>-2)&&(n3==-2)){
 			seq23CutNum++;
-			text23 = text23 + enzymearray[i][0] + " " + recognition[i].bold()+
-			' ' + numberofcut(seq2,regexfw[i])+ ' ' + numberofcut(seq2,regexrv[i])    +
-			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymearray[i][0] +'.html" target="_blank">'+ enzymearray[i][0]+'</a>'+
+			text23 = text23 + enzymeArray[i].name + " " + enzymeArray[i].recognition.bold()+
+			' ' + numberofcut(seq2,enzymeArray[i].regexfw)+ ' ' + numberofcut(seq2,enzymeArray[i].regexrv)    +
+			' <a href="http://rebase.neb.com/rebase/enz/'+ enzymeArray[i].name +'.html" target="_blank">'+ enzymeArray[i].name+'</a>'+
 			'<BR>';
 		}
 	}
