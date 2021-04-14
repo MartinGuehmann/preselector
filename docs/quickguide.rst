@@ -13,11 +13,15 @@
   :width: 800
   :alt: preselection digest principle
 
-3. Click "Submit and Digest" to run the analysis.
+3. Click "Submit and Digest" to run the analysis. Preselector checks your inputs for the correct format and issues a warning if any characters other than 'ATGC' are detected (arrow in the figure below).
+
+.. image:: images/workflow_03.png
+  :width: 800
+  :alt: preselection digest principle
 
 4. Your results will be displayed in the three tables below: In (a), the enzymes that cut in sequence 1 but not in sequence 3 (recipient and final plasmid, respectively; left column), or sequence 2 but not in sequence 3 (donor and final plasmid, respectively; right column). The two other tables show all the enzymes that cut (b) and all the enzymes enzymes that do not cut (c) provided sequences.
 
-.. image:: images/workflow_03.png
+.. image:: images/workflow_04.png
   :width: 800
   :alt: preselection digest principle
 
