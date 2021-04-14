@@ -1,5 +1,4 @@
-// Copyright by Ralf Mrowka (C)2020,  all rights reserved
-
+// Copyright by Martin and Ralf Mrowka (C) 2021,  all rights reserved
 
 var enzymearray = [];
 var recognition = [];
