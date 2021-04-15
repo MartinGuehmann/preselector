@@ -5,7 +5,7 @@ Links
 ^^^^^^^
 Webtool: https://preselector.uni-jena.de/
 
-GitHub repository: https://github.com/janH-21/preselector.uni-jena.de
+Source code on GitHub: https://github.com/MartinGuehmann/preselector
 
 Contact
 ^^^^^^^
