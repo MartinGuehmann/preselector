@@ -47,8 +47,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'preselector.uni-jena.de'
-copyright = '2021, Martin Gühmann and Ralf Mrowka'
-author = 'Martin Gühmann and Ralf Mrowka'
+copyright = '2021, Martin Gühmann, Stefanie Reuter, Jan Hartung, and Ralf Mrowka'
+author = 'Martin Gühmann, Stefanie Reuter, Jan Hartung, and Ralf Mrowka'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
