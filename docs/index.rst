@@ -1,4 +1,4 @@
-﻿preselector.uni-jena.de
+preselector.uni-jena.de
 =======================
 
 preselector.uni-jena.de (https://preselector.uni-jena.de/) is a free online tool for planing preselection digests in molecular cloning. Digests of donor vectors with restriction enzymes can be incomplete. This contamination leads to religation of the donor backbone, and results in a high background level of false positive clones. Preselection digests can reduce or even eliminate this background (illustrated below).
