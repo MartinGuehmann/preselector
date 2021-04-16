@@ -11,6 +11,8 @@ We cut out the insert from the donor plasmid with the restriction enzymes NotI a
   :width: 800
   :alt: example 1
 
+|
+|** Sequences: **
 
 .. raw:: html
 
@@ -55,7 +57,6 @@ We cut out the insert from the donor plasmid with the restriction enzymes NotI a
    </details>
 
 |
-| 
 |**Enzymes found by preselector:**
 
 ================================= =================
@@ -71,8 +72,8 @@ Cut not sequence 2                206
 Cut not sequence 3                52
 ================================= =================
 
-
-**Enzymes cutting recipient but not final:**
+|
+|**Enzymes cutting recipient but not final:**
 
 ====== ============
 Enzyme Sequence
@@ -93,6 +94,9 @@ Here, we cannot rely on the multiple cloning site (MCS), since the restriction e
 .. image:: images/example_02.png
   :width: 800
   :alt: example 2
+
+|
+|** Sequences: **
 
 .. raw:: html
 
@@ -121,7 +125,6 @@ Here, we cannot rely on the multiple cloning site (MCS), since the restriction e
 
    </details>
 
-|
 | 
 |**Enzymes found by preselector:**
 
@@ -135,8 +138,8 @@ Cut not sequence 1                136
 Cut not sequence 3                118
 ================================= =================
 
-
-**Enzymes cutting recipient but not final:**
+|
+|**Enzymes cutting recipient but not final:**
 
 ====== ===================
 Enzyme Sequence
@@ -162,6 +165,9 @@ It is not hard to imagine a slightly different scenario, in which, depending on 
 .. image:: images/example_03.png
   :width: 800
   :alt: example 3
+
+|
+|** Sequences: **
 
 .. raw:: html
 
@@ -191,7 +197,6 @@ It is not hard to imagine a slightly different scenario, in which, depending on 
 
    </details>
 
-|
 | 
 |**Enzymes found by preselector:**
 
@@ -205,8 +210,8 @@ Cut not sequence 1                76
 Cut not sequence 3                79
 ================================= =================
 
-
-**Enzymes cutting recipient but not final:**
+|
+|**Enzymes cutting recipient but not final:**
 
 ====== ============
 Enzyme Sequence
