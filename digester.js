@@ -72,11 +72,20 @@ function initEnzymeLists()
 	for (var i in enzymeArray)
 	{
 		enzymesToUse    .options[i] = new Option(enzymeArray[i].name, i);
-		enzymesToExclude.options[i] = new Option(enzymeArray[i].name, i);
 		enzymesToUse    .options[i].id = enzymeArray[i].name;
-		enzymesToExclude.options[i].id = enzymeArray[i].name;
-		enzymesToExclude.options[i].hidden = true;
 	}
+}
+
+function addInAlphabethicalOrder(optionList, itemToAdd)
+{
+	var i = 0;
+	for(; i < optionList.length; i++)
+	{
+		if (optionList[i].id > itemToAdd.id)
+			break;
+	}
+
+	optionList.add(itemToAdd, i);
 }
 
 function addEnzymes()
@@ -84,13 +93,12 @@ function addEnzymes()
 	var enzymesToUse     = document.getElementById("EnzymesToUse").options;
 	var enzymesToExclude = document.getElementById("EnzymesToExclude").options;
 
-	for(var i = 0; i < enzymesToExclude.length; i++)
+	for(var i = enzymesToExclude.length - 1; i >= 0; i--)
 	{
 		if(enzymesToExclude[i].selected)
 		{
-			enzymesToUse[i].hidden = false;
-			enzymesToExclude[i].hidden = true;
 			enzymesToExclude[i].selected = false;
+			addInAlphabethicalOrder(enzymesToUse, enzymesToExclude[i]);
 		}
 	}
 
@@ -102,13 +110,12 @@ function removeEnzymes()
 	var enzymesToUse     = document.getElementById("EnzymesToUse").options;
 	var enzymesToExclude = document.getElementById("EnzymesToExclude").options;
 
-	for(var i = 0; i < enzymesToUse.length; i++)
+	for(var i = enzymesToUse.length - 1; i >= 0; i--)
 	{
 		if(enzymesToUse[i].selected)
 		{
-			enzymesToExclude[i].hidden = false;
-			enzymesToUse[i].hidden = true;
 			enzymesToUse[i].selected = false;
+			addInAlphabethicalOrder(enzymesToExclude, enzymesToUse[i]);
 		}
 	}
 
@@ -120,15 +127,10 @@ function useAllEnzymes()
 	var enzymesToUse     = document.getElementById("EnzymesToUse").options;
 	var enzymesToExclude = document.getElementById("EnzymesToExclude").options;
 
-	for(var i = 0; i < enzymesToUse.length; i++)
+	for(var i = enzymesToExclude.length - 1; i >= 0; i--)
 	{
-		enzymesToUse[i].hidden = false;
-	}
-
-	for(var i = 0; i < enzymesToExclude.length; i++)
-	{
-		enzymesToExclude[i].hidden = true;
 		enzymesToExclude[i].selected = false;
+		addInAlphabethicalOrder(enzymesToUse, enzymesToExclude[i]);
 	}
 
 	document.getElementById("fileWarning").innerHTML = "";
@@ -139,16 +141,12 @@ function removeAllEnzymes()
 	var enzymesToUse     = document.getElementById("EnzymesToUse").options;
 	var enzymesToExclude = document.getElementById("EnzymesToExclude").options;
 
-	for(var i = 0; i < enzymesToUse.length; i++)
+	for(var i = enzymesToUse.length - 1; i >= 0; i--)
 	{
-		enzymesToUse[i].hidden = true;
 		enzymesToUse[i].selected = false;
+		addInAlphabethicalOrder(enzymesToExclude, enzymesToUse[i]);
 	}
 
-	for(var i = 0; i < enzymesToExclude.length; i++)
-	{
-		enzymesToExclude[i].hidden = false;
-	}
 
 	document.getElementById("fileWarning").innerHTML = "";
 }
@@ -187,13 +185,11 @@ function onChangeLoadEnzymes()
 				return;
 			}
 
-			var enzymeToUseItem = enzymesToUse.namedItem(line);
 			var enzymesToExcludeItem = enzymesToExclude.namedItem(line);
 
-			if(enzymeToUseItem != null)
+			if(enzymesToExcludeItem != null)
 			{
-				enzymeToUseItem.hidden = false;
-				enzymesToExcludeItem.hidden = true;
+				addInAlphabethicalOrder(enzymesToUse, enzymesToExcludeItem);
 			}
 			else if(fileWarning == "")
 			{
@@ -225,11 +221,8 @@ function saveEnzymes()
 
 	for(var i = 0; i < enzymesToUse.length; i++)
 	{
-		if(!enzymesToUse[i].hidden)
-		{
-			enzymesToSaveFileBody += enzymesToUse[i].text;
-			enzymesToSaveFileBody += "\n";
-		}
+		enzymesToSaveFileBody += enzymesToUse[i].text;
+		enzymesToSaveFileBody += "\n";
 	}
 
 	enzymesToSaveFileBody = enzymesToSaveFileBody.replace(/\n/g, "%0D%0A");
@@ -519,11 +512,11 @@ function myFunction() {
 	seq2=getSequence("2");
 	seq3=getSequence("3");
 
-	var enzymesToUse     = document.getElementById("EnzymesToUse");
+	var enzymesToUse = document.getElementById("EnzymesToUse");
 
-	for (var i = 0; i < enzymeArray.length; i++) {
-
-		if(enzymesToUse[i].hidden)
+	for (var i = 0; i < enzymeArray.length; i++)
+	{
+		if(enzymesToUse.namedItem(enzymeArray[i].name) == null)
 		{
 			continue;
 		}
